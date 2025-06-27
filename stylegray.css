@@ -1,15 +1,15 @@
 /*  Colors
- * 
+ *
  *  bg & title - #ccc               base
  *  h3bg & borders & links - #ddd   +2
  *  shadows & main border - #bbb    -2
- *  
+ *
  */
 
 
 /*  Reset  */
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
     }
@@ -17,7 +17,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     }
-fieldset,img { 
+fieldset,img {
     border: 0;
     }
 ol,ul {
@@ -100,7 +100,7 @@ h4 {
 
 #contact {
     float: right;
-    margin-right: 40px;	
+    margin-right: 40px;
 }
 
 #contact td {
@@ -208,6 +208,15 @@ h4 {
 
 #recommend p {
     margin: 20px 60px 20px 40px;
+}
+
+.fp {
+    width: 100%;
+    height: 200px;
+    background-image: url('fp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #footer {
