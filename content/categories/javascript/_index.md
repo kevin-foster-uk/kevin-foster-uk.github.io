@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "Javascript"
 draft: false
 ---
 

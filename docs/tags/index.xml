@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kevin Foster</title>
-    <link>https://kevfoster.co.uk/tags/</link>
+    <link>https://www.kevfoster.co.uk/tags/</link>
     <description>Recent content in Tags on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Company Culture</title>
-      <link>https://kevfoster.co.uk/tags/company-culture/</link>
+      <link>https://www.kevfoster.co.uk/tags/company-culture/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/company-culture/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/company-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookies</title>
-      <link>https://kevfoster.co.uk/tags/cookies/</link>
+      <link>https://www.kevfoster.co.uk/tags/cookies/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/cookies/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/cookies/</guid>
       <description></description>
     </item>
     <item>
       <title>GDPR</title>
-      <link>https://kevfoster.co.uk/tags/gdpr/</link>
+      <link>https://www.kevfoster.co.uk/tags/gdpr/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/gdpr/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/gdpr/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>https://kevfoster.co.uk/tags/hacking/</link>
+      <link>https://www.kevfoster.co.uk/tags/hacking/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/hacking/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>People</title>
-      <link>https://kevfoster.co.uk/tags/people/</link>
+      <link>https://www.kevfoster.co.uk/tags/people/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/people/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/people/</guid>
       <description></description>
     </item>
     <item>
       <title>PHP</title>
-      <link>https://kevfoster.co.uk/tags/php/</link>
+      <link>https://www.kevfoster.co.uk/tags/php/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/php/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulation</title>
-      <link>https://kevfoster.co.uk/tags/regulation/</link>
+      <link>https://www.kevfoster.co.uk/tags/regulation/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/regulation/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/regulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Dev</title>
-      <link>https://kevfoster.co.uk/tags/software-dev/</link>
+      <link>https://www.kevfoster.co.uk/tags/software-dev/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/tags/software-dev/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/software-dev/</guid>
       <description></description>
     </item>
   </channel>

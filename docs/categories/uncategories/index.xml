@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategories on Kevin Foster</title>
-    <link>https://kevfoster.co.uk/categories/uncategories/</link>
+    <link>https://www.kevfoster.co.uk/categories/uncategories/</link>
     <description>Recent content in Uncategories on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <atom:link href="https://kevfoster.co.uk/categories/uncategories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/categories/uncategories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

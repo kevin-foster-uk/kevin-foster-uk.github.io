@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kevin Foster</title>
-    <link>https://kevfoster.co.uk/categories/</link>
+    <link>https://www.kevfoster.co.uk/categories/</link>
     <description>Recent content in Categories on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kevfoster.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Company Culture</title>
-      <link>https://kevfoster.co.uk/categories/company-culture/</link>
+      <link>https://www.kevfoster.co.uk/categories/company-culture/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/company-culture/</guid>
+      <guid>https://www.kevfoster.co.uk/categories/company-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>GDPR</title>
-      <link>https://kevfoster.co.uk/categories/gdpr/</link>
+      <link>https://www.kevfoster.co.uk/categories/gdpr/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/gdpr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript</title>
-      <link>https://kevfoster.co.uk/categories/people/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/people/</guid>
-      <description>Description</description>
-    </item>
-    <item>
-      <title>PHP</title>
-      <link>https://kevfoster.co.uk/categories/php/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/php/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Dev</title>
-      <link>https://kevfoster.co.uk/categories/software-dev/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/software-dev/</guid>
+      <guid>https://www.kevfoster.co.uk/categories/gdpr/</guid>
       <description></description>
     </item>
     <item>
       <title>People</title>
-      <link>https://kevfoster.co.uk/categories/javascript/</link>
+      <link>https://www.kevfoster.co.uk/categories/people/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://www.kevfoster.co.uk/categories/php/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Dev</title>
+      <link>https://www.kevfoster.co.uk/categories/software-dev/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/software-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://www.kevfoster.co.uk/categories/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/javascript/</guid>
+      <guid>https://www.kevfoster.co.uk/categories/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Uncategories</title>
-      <link>https://kevfoster.co.uk/categories/uncategories/</link>
+      <link>https://www.kevfoster.co.uk/categories/uncategories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kevfoster.co.uk/categories/uncategories/</guid>
+      <guid>https://www.kevfoster.co.uk/categories/uncategories/</guid>
       <description>Description</description>
     </item>
   </channel>

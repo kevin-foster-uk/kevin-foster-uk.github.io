@@ -1,6 +1,4 @@
 ---
-title: "JavaScript"
+title: "People"
 draft: false
 ---
-
-Description

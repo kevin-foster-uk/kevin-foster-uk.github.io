@@ -16,9 +16,9 @@ Disallow: /tags/hacking/
 
 Disallow: /
 
-Disallow: /categories/people/
-
 Disallow: /tags/people/
+
+Disallow: /categories/people/
 
 Disallow: /tags/php/
 
