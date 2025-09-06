@@ -8,7 +8,7 @@
 <title>The Elephant in the Room- A Candid Look at WordPress Code</title>
 <meta
   name="description"
-  content="Well-Intentioned but Flawed"
+  content="The conversation around its codebase is a sign of a mature platform. Understanding these limitations is the first step to working within them—or wisely choosing to use a different tool altogether."
 />
 <link rel="canonical" href="https://www.kevfoster.co.uk/posts/wordpress-code/" />
 <link rel="robots" href="/robots.txt" />
@@ -154,6 +154,10 @@
       
        —
         
+          <a class="categories" href="/categories/php/" alt="PHP">
+            PHP
+          </a>
+        
           <a class="categories" href="/categories/software-dev/" alt="Software Dev">
             Software Dev
           </a>
@@ -164,32 +168,19 @@
 
   
 
-  <section><p>If you’ve visited a website in the past few years, you’ve seen it: the now-ubiquitous cookie consent pop-up. Mandated by the EU’s GDPR and ePrivacy Directive, these banners were designed to give us control over our online data. But years after their introduction, a growing chorus of critics argues that the so-called “cookie law” is a well-intentioned failure.</p>
-<p>So, what went wrong?</p>
-<ol>
-<li>Consent Fatigue Has Won</li>
-</ol>
-<p>The most obvious issue is banner fatigue. Instead of thoughtfully considering their privacy choices, most people instinctively hammer the “Accept All” button just to make the pop-up disappear. This has turned a tool meant to empower users into a mere inconvenience they blindly click through, defeating the very purpose of informed consent.</p>
-<ol start="2">
-<li>A Bad User Experience</li>
-</ol>
-<p>Let’s be honest: these pop-ups are annoying. They interrupt reading, clutter beautiful designs, and create a fragmented browsing experience. Some websites, particularly small independent ones, have even chosen to block EU visitors entirely rather than navigate the complex legal maze, reducing access to information and services.</p>
-<ol start="3">
-<li>A Boon for Big Tech, a Burden for Small Business</li>
-</ol>
-<p>Compliance isn’t free. Implementing a compliant consent system requires legal expertise and technical resources. Large corporations can absorb this cost easily, but for small startups and independent publishers, it’s a significant burden. Ironically, a law meant to curb the power of big ad-tech giants has ended up cementing their advantage by creating barriers to entry for smaller competitors.</p>
-<ol start="4">
-<li>Questionable Privacy Gains</li>
-</ol>
-<p>Perhaps the most significant criticism is that the law doesn’t always achieve its primary goal. Many pop-ups use dark patterns—deceptive designs that make rejecting cookies harder than accepting them. Furthermore, determined trackers can find ways to fingerprint users or rely on “legitimate interest” claims, bypassing the need for consent altogether.</p>
-<ol start="5">
-<li>A Messy, Inconsistent Rollout</li>
-</ol>
-<p>The law’s interpretation varies wildly from one EU country to another, creating a legal patchwork that is confusing and costly for any business operating across borders. This lack of harmony undermines the single-market principle and leaves everyone in a state of uncertainty.</p>
-<p>Is There a Better Way?</p>
-<p>The cookie law correctly identified a real problem: our loss of control over personal data online. But its execution is flawed. Many experts now believe a more effective solution would be to shift the responsibility away from endless pop-ups and toward browser-level settings and default bans on intrusive third-party tracking.</p>
-<p>The conversation has started to move in this direction. The focus is slowly shifting from asking users to constantly make complex choices to instead building a web where privacy is the default, not an option buried in a pop-up.</p>
-<p>The cookie consent banner has become a symbol of our growing concern for digital privacy. It’s a shame it has also become a symbol of how not to do it.</p>
+  <section><p>WordPress is a titan of the web, powering a staggering portion of the internet. Its ease of use, vast ecosystem, and powerful community are undeniable strengths. For millions of users and developers, it’s the perfect tool for the job.</p>
+<p>However, when we peek under the hood from a modern software development perspective, the WordPress core codebase shows its age. While it gets the job done, it carries the weight of its own incredible success, leading to some valid architectural criticisms.</p>
+<p>The Weight of Legacy</p>
+<p>The single greatest factor shaping WordPress&rsquo;s code is its unwavering commitment to backward compatibility. This is a blessing for site owners, ensuring updates rarely break existing sites. For developers, however, it’s a curse of stagnation. The codebase is filled with procedural patterns, global variables, and dated PHP practices that modern frameworks have long since moved away from. This makes large-scale, custom application development feel like swimming upstream.</p>
+<p>Architectural Growing Pains</p>
+<p>WordPress is famously monolithic. Its core, themes, and plugins are tightly intertwined, leading to potential conflicts and &ldquo;spaghetti code.&rdquo; Unlike modern applications built with Dependency Injection and structured APIs, WordPress relies on a global scope and a system of hooks that can become difficult to debug and maintain in complex projects.</p>
+<p>The database schema, designed for ultimate flexibility, often becomes a performance bottleneck. Using a generic Entity-Attribute-Value (EAV) model for post meta data results in expensive joins and inefficient queries as a site grows, necessitating sophisticated caching strategies.</p>
+<p>The Security and Performance Tax</p>
+<p>WordPress&rsquo;s popularity makes it a giant target. While the core has become much more secure, the plugin architecture—a key to its versatility—is also its greatest vulnerability. A single poorly coded plugin can compromise an entire site. Furthermore, achieving high performance for large-scale sites often requires a stack of caching plugins and external services, as the core isn’t optimized for speed out of the box.</p>
+<p>Is WordPress Still a Good Choice?</p>
+<p>Absolutely. For blogs, marketing sites, brochureware, and any project where a client needs to manage content easily, WordPress is often the best choice. The criticism isn&rsquo;t that WordPress is &ldquo;bad,&rdquo; but rather that it is not ideally suited for every task.</p>
+<p>The key is to choose the right tool for the job. For developers building complex web applications, a modern framework like Laravel or a headless CMS might offer a more robust foundation. But for empowering users to publish content and manage their own sites, WordPress’s benefits continue to outweigh its technical debts.</p>
+<p>The conversation around its codebase is a sign of a mature platform. Understanding these limitations is the first step to working within them—or wisely choosing to use a different tool altogether.</p>
 </section>
 
   

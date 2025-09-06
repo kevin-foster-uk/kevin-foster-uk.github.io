@@ -6,6 +6,12 @@ Disallow: /tags/company-culture/
 
 Disallow: /categories/company-culture/
 
+Disallow: /tags/cookies/
+
+Disallow: /tags/gdpr/
+
+Disallow: /categories/gdpr/
+
 Disallow: /tags/hacking/
 
 Disallow: /
@@ -25,6 +31,8 @@ Disallow: /tags/software-dev/
 Disallow: /categories/software-dev/
 
 Disallow: /tags/
+
+Disallow: /posts/gdpr-cookie-flawed/
 
 Disallow: /posts/wordpress-code/
 

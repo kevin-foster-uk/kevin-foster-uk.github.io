@@ -1,14 +1,15 @@
 
 ---
-title: "The Elephant in the Room- A Candid Look at WordPress Code"
+title: "The Cookie Law Conundrum: Well-Intentioned but Flawed"
 draft: false
 date: 2025-09-01T12:00:00.000Z
-description: "The conversation around its codebase is a sign of a mature platform. Understanding these limitations is the first step to working within them—or wisely choosing to use a different tool altogether."
+description: "The cookie consent banner has become a symbol of our growing concern for digital privacy. It’s a shame it has also become a symbol of how not to do it."
 categories:
-  - PHP
+  - GDPR
   - Software Dev
 tags:
-  - Wordpress
+  - GDPR
+  - Cookies
   - Software Dev
 ---
 
