@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Development on Kevin Foster</title>
+    <link>http://localhost:1313/tags/software-development/</link>
+    <description>Recent content in Software Development on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tribal Tests: How Harsh Environments Expose a Lack of Wisdom</title>
+      <link>http://localhost:1313/posts/tribal-tests/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tribal-tests/</guid>
+      <description>When we romanticize tribal life, we imagine close-knit communities guided by the serene wisdom of elders.</description>
+    </item>
+    <item>
+      <title>When Management Works Against Itself in Software Development</title>
+      <link>http://localhost:1313/posts/when-management-works-against-itself/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/when-management-works-against-itself/</guid>
+      <description>A common issue in software development is the disconnect between management priorities and the engineering practices required for long-term success.</description>
+    </item>
+  </channel>
+</rss>

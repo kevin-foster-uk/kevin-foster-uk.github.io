@@ -1,0 +1,53 @@
+User-agent: *
+
+Disallow: /categories/
+
+Disallow: /tags/company-culture/
+
+Disallow: /categories/company-culture/
+
+Disallow: /tags/cookies/
+
+Disallow: /tags/gdpr/
+
+Disallow: /categories/gdpr/
+
+Disallow: /tags/hacking/
+
+Disallow: /
+
+Disallow: /categories/people/
+
+Disallow: /tags/people/
+
+Disallow: /tags/php/
+
+Disallow: /categories/php/
+
+Disallow: /posts/
+
+Disallow: /tags/regulation/
+
+Disallow: /tags/software-dev/
+
+Disallow: /categories/software-dev/
+
+Disallow: /tags/
+
+Disallow: /posts/wordpress-code/
+
+Disallow: /posts/php-paradox/
+
+Disallow: /posts/ignoring-engineers/
+
+Disallow: /posts/tribal-tests/
+
+Disallow: /posts/when-management-works-against-itself/
+
+Disallow: /about/
+
+Disallow: /recommendations/
+
+Disallow: /categories/javascript/
+
+Disallow: /categories/uncategories/

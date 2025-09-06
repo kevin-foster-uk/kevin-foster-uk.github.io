@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Kevin Foster</title>
+    <link>https://kevfoster.co.uk/categories/php/</link>
+    <description>Recent content in PHP on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kevfoster.co.uk/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The PHP Paradox</title>
+      <link>https://kevfoster.co.uk/posts/php-paradox/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://kevfoster.co.uk/posts/php-paradox/</guid>
+      <description>Walk into any tech forum, and you’ll find a familiar debate raging about PHP. It’s a language often criticized for its inconsistencies, yet it powers a significant portion of the web.</description>
+    </item>
+  </channel>
+</rss>
