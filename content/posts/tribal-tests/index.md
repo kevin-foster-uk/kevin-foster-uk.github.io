@@ -22,7 +22,7 @@ These environments don’t just test survival skills; they test judgment. And in
 
 4. The Scourge of Scapegoating When disaster strikes—a drought,a sickness, a bad hunt—the unwise default to superstition over solution. They look for a witch to blame or a taboo that was broken instead of analyzing practical causes. This not only leads to the unjust punishment of innocent members but also ensures the real problem is never solved, inevitably repeating the crisis.
 
-The Unwisdom of Stagnation Perhaps the greatest revealer of foolishness is a refusal to adapt.The unwise hide behind the mantra of "tradition" to resist any change, even when new tools, medicines, or strategies could save lives. They mistake rigidity for strength, ultimately making the tribe fragile and unable to face new threats.
+The Unwisdom of Stagnation Perhaps the greatest revealer of foolishness is a refusal to adapt. The unwise hide behind the mantra of "tradition" to resist any change, even when new tools, medicines, or strategies could save lives. They mistake rigidity for strength, ultimately making the tribe fragile and unable to face new threats.
 
 The Takeaway Tribal environments are a mirror. They reflect the best of human collaboration but can also magnify the worst of our instincts. A lack of wisdom isn’t just about making a poor personal choice; it’s about fostering a culture that rewards aggression over insight, conformity over competence, and short-term power over long-term survival.
 
