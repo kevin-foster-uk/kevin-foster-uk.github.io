@@ -1,0 +1,38 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[main]]
+    identifier = "about"
+    name = "About me"
+    url = "/about"
+    weight = 2
+
+[[main]]
+    identifier = "recommendations"
+    name = "Recommendations"
+    url = "/recommendations"
+    weight = 2
+
+[[main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+
+# Social Media Configuration
+
+[[social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/kevin-foster-uk"
+    weight = 3
