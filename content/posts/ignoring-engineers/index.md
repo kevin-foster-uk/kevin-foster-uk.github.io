@@ -18,9 +18,9 @@ On one side, management is laser-focused on velocity, release dates, and feature
 
 But this isn’t just about code quality; it’s about cultural health. When the deep knowledge and hard-won insight of experienced developers are consistently sidelined, the cost is profound:
 
-· The Innovation Tax: Every minute spent wrestling with tangled, rushed code is a minute not spent building the next transformative feature. Technical debt doesn’t just slow you down; it mortgages your future capacity for innovation.
-· The Burnout Toll: Nothing demoralizes a passionate craftsperson faster than being forced to do shoddy work. The best engineers care deeply about their craft. When that care is systematically invalidated, they don’t just get frustrated—they leave.
-· The Institutional Amnesia: Developers are the custodians of the product’s history. They remember why certain choices were made and which shortcuts will come back to haunt us. Ignoring them means condemning the organization to repeat its past mistakes.
+- The Innovation Tax: Every minute spent wrestling with tangled, rushed code is a minute not spent building the next transformative feature. Technical debt doesn’t just slow you down; it mortgages your future capacity for innovation.
+- The Burnout Toll: Nothing demoralizes a passionate craftsperson faster than being forced to do shoddy work. The best engineers care deeply about their craft. When that care is systematically invalidated, they don’t just get frustrated—they leave.
+- The Institutional Amnesia: Developers are the custodians of the product’s history. They remember why certain choices were made and which shortcuts will come back to haunt us. Ignoring them means condemning the organization to repeat its past mistakes.
 
 The most successful companies in the long run aren’t those that ship the fastest, but those that learn to listen. They understand that a developer’s plea for refactoring isn’t a delay—it’s an investment. They see that a team’s warning about an unrealistic deadline isn’t a lack of ambition—it’s a risk assessment.
 

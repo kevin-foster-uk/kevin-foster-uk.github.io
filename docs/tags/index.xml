@@ -17,20 +17,6 @@
       <description></description>
     </item>
     <item>
-      <title>Cookies</title>
-      <link>https://www.kevfoster.co.uk/tags/cookies/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/tags/cookies/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GDPR</title>
-      <link>https://www.kevfoster.co.uk/tags/gdpr/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/tags/gdpr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hacking</title>
       <link>https://www.kevfoster.co.uk/tags/hacking/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
@@ -52,17 +38,17 @@
       <description></description>
     </item>
     <item>
-      <title>Regulation</title>
-      <link>https://www.kevfoster.co.uk/tags/regulation/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/tags/regulation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Software Dev</title>
       <link>https://www.kevfoster.co.uk/tags/software-dev/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/tags/software-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://www.kevfoster.co.uk/tags/wordpress/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/wordpress/</guid>
       <description></description>
     </item>
   </channel>

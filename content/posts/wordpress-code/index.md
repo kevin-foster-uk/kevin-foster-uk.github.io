@@ -1,16 +1,13 @@
 
 ---
-title: "The Cookie Law Conundrum: Well-Intentioned but Flawed"
+title: "The Elephant in the Room- A Candid Look at WordPress Code"
 draft: false
 date: 2025-09-01T12:00:00.000Z
 description: "Well-Intentioned but Flawed"
 categories:
-  - GDPR
   - Software Dev
 tags:
-  - GDPR
-  - Cookies
-  - Regulation
+  - Wordpress
   - Software Dev
 ---
 

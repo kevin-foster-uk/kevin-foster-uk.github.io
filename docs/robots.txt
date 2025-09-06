@@ -6,12 +6,6 @@ Disallow: /tags/company-culture/
 
 Disallow: /categories/company-culture/
 
-Disallow: /tags/cookies/
-
-Disallow: /tags/gdpr/
-
-Disallow: /categories/gdpr/
-
 Disallow: /tags/hacking/
 
 Disallow: /
@@ -25,8 +19,6 @@ Disallow: /tags/php/
 Disallow: /categories/php/
 
 Disallow: /posts/
-
-Disallow: /tags/regulation/
 
 Disallow: /tags/software-dev/
 
@@ -43,6 +35,8 @@ Disallow: /posts/ignoring-engineers/
 Disallow: /posts/tribal-tests/
 
 Disallow: /posts/when-management-works-against-itself/
+
+Disallow: /tags/wordpress/
 
 Disallow: /about/
 
