@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Dev on Kevin Foster</title>
-    <link>https://www.kevfoster.co.uk/categories/software-dev/</link>
+    <link>http://localhost:1313/categories/software-dev/</link>
     <description>Recent content in Software Dev on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kevfoster.co.uk/categories/software-dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/software-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cookie Law Conundrum: Well-Intentioned but Flawed</title>
-      <link>https://www.kevfoster.co.uk/posts/wordpress-code/</link>
+      <link>http://localhost:1313/posts/wordpress-code/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/posts/wordpress-code/</guid>
+      <guid>http://localhost:1313/posts/wordpress-code/</guid>
       <description>If you’ve visited a website in the past few years, you’ve seen it: the now-ubiquitous cookie consent pop-up.</description>
     </item>
     <item>
       <title>The PHP Paradox</title>
-      <link>https://www.kevfoster.co.uk/posts/php-paradox/</link>
+      <link>http://localhost:1313/posts/php-paradox/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/posts/php-paradox/</guid>
+      <guid>http://localhost:1313/posts/php-paradox/</guid>
       <description>Walk into any tech forum, and you’ll find a familiar debate raging about PHP. It’s a language often criticized for its inconsistencies, yet it powers a significant portion of the web.</description>
     </item>
     <item>
       <title>The Silent Cost of Ignoring Your Engineers</title>
-      <link>https://www.kevfoster.co.uk/posts/ignoring-engineers/</link>
+      <link>http://localhost:1313/posts/ignoring-engineers/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/posts/ignoring-engineers/</guid>
+      <guid>http://localhost:1313/posts/ignoring-engineers/</guid>
       <description>In the relentless pursuit of growth and profit, a dangerous schism has emerged in the software industry.</description>
     </item>
     <item>
       <title>When Management Works Against Itself in Software Development</title>
-      <link>https://www.kevfoster.co.uk/posts/when-management-works-against-itself/</link>
+      <link>http://localhost:1313/posts/when-management-works-against-itself/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/posts/when-management-works-against-itself/</guid>
+      <guid>http://localhost:1313/posts/when-management-works-against-itself/</guid>
       <description>A common issue in software development is the disconnect between management priorities and the engineering practices required for long-term success.</description>
     </item>
   </channel>
