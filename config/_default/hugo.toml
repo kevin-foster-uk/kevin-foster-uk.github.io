@@ -1,7 +1,7 @@
 baseURL = 'https://www.kevfoster.co.uk/'
 publishDir = "docs"
 copyright = "{year}" # To make 2007 - 2022. Just add before {year} example: 2007 - {year}
-languageCode = 'en-US'
+languageCode = 'en-GB'
 defaultContentLanguage = 'en'
 theme = 'enchanted-lowkey'
 title = 'Kevin Foster'

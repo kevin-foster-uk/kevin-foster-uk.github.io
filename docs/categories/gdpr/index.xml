@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GDPR on Kevin Foster</title>
-    <link>http://localhost:1313/categories/gdpr/</link>
+    <link>https://www.kevfoster.co.uk/categories/gdpr/</link>
     <description>Recent content in GDPR on Kevin Foster</description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en-GB</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/gdpr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/categories/gdpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cookie Law Conundrum: Well-Intentioned but Flawed</title>
-      <link>http://localhost:1313/posts/wordpress-code/</link>
+      <link>https://www.kevfoster.co.uk/posts/wordpress-code/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wordpress-code/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/wordpress-code/</guid>
       <description>If you’ve visited a website in the past few years, you’ve seen it: the now-ubiquitous cookie consent pop-up.</description>
     </item>
   </channel>

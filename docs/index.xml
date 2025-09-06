@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hey There! on Kevin Foster</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.kevfoster.co.uk/</link>
     <description>Recent content in Hey There! on Kevin Foster</description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en-GB</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cookie Law Conundrum: Well-Intentioned but Flawed</title>
-      <link>http://localhost:1313/posts/wordpress-code/</link>
+      <link>https://www.kevfoster.co.uk/posts/wordpress-code/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wordpress-code/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/wordpress-code/</guid>
       <description>If you’ve visited a website in the past few years, you’ve seen it: the now-ubiquitous cookie consent pop-up.</description>
     </item>
     <item>
       <title>The PHP Paradox</title>
-      <link>http://localhost:1313/posts/php-paradox/</link>
+      <link>https://www.kevfoster.co.uk/posts/php-paradox/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/php-paradox/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/php-paradox/</guid>
       <description>Walk into any tech forum, and you’ll find a familiar debate raging about PHP. It’s a language often criticized for its inconsistencies, yet it powers a significant portion of the web.</description>
     </item>
     <item>
       <title>The Silent Cost of Ignoring Your Engineers</title>
-      <link>http://localhost:1313/posts/ignoring-engineers/</link>
+      <link>https://www.kevfoster.co.uk/posts/ignoring-engineers/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ignoring-engineers/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/ignoring-engineers/</guid>
       <description>In the relentless pursuit of growth and profit, a dangerous schism has emerged in the software industry.</description>
     </item>
     <item>
       <title>Tribal Tests: How Harsh Environments Expose a Lack of Wisdom</title>
-      <link>http://localhost:1313/posts/tribal-tests/</link>
+      <link>https://www.kevfoster.co.uk/posts/tribal-tests/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tribal-tests/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/tribal-tests/</guid>
       <description>When we romanticize tribal life, we imagine close-knit communities guided by the serene wisdom of elders.</description>
     </item>
     <item>
       <title>When Management Works Against Itself in Software Development</title>
-      <link>http://localhost:1313/posts/when-management-works-against-itself/</link>
+      <link>https://www.kevfoster.co.uk/posts/when-management-works-against-itself/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/when-management-works-against-itself/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/when-management-works-against-itself/</guid>
       <description>A common issue in software development is the disconnect between management priorities and the engineering practices required for long-term success.</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.kevfoster.co.uk/about/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.kevfoster.co.uk/about/</guid>
       <description>I&amp;rsquo;m a freelance software developer based in Liverpool, England, with 20 years of experience developing software.</description>
     </item>
     <item>
       <title>Recommendations</title>
-      <link>http://localhost:1313/recommendations/</link>
+      <link>https://www.kevfoster.co.uk/recommendations/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recommendations/</guid>
+      <guid>https://www.kevfoster.co.uk/recommendations/</guid>
       <description>Alen Bubich Co-Founder, CityBlast Media Inc.&#xA;If you&amp;rsquo;re looking for a programmer who cares about the quality of his code and more importantly cares about your business, Kevin is your guy.</description>
     </item>
   </channel>
