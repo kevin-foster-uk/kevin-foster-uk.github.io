@@ -19,7 +19,7 @@ My passion for systems extends beyond code. I'm a music enthusiast and hobbyist 
 - Javascript / TypeScript
 - React / React Native
 - Document Database (MongoDB)
-- NodeJS /
+- NodeJS
 - OOP / SOLID principles
 - Immutability and pure functions
 - Unit Testing
