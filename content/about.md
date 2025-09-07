@@ -24,8 +24,7 @@ My passion for systems extends beyond code. I'm a music enthusiast and hobbyist 
 - Immutability and pure functions
 - Unit Testing
 - Version Control (Git)
-- PHP
-- MySQL
+- PHP / MySQL
 - Linux
 - Containers (Docker, Podman, ...)
 - Infrastructure as Code (Ansible, Kubernetes, ...)
