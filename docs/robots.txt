@@ -1,10 +1,26 @@
 User-agent: *
 
+Disallow: /posts/software-teams-that-thrive/
+
 Disallow: /categories/
 
 Disallow: /tags/company-culture/
 
 Disallow: /categories/company-culture/
+
+Disallow: /
+
+Disallow: /posts/
+
+Disallow: /tags/software-dev/
+
+Disallow: /categories/software-dev/
+
+Disallow: /tags/
+
+Disallow: /tags/teams/
+
+Disallow: /categories/teams/
 
 Disallow: /tags/cookies/
 
@@ -14,8 +30,6 @@ Disallow: /categories/gdpr/
 
 Disallow: /tags/hacking/
 
-Disallow: /
-
 Disallow: /tags/people/
 
 Disallow: /categories/people/
@@ -23,14 +37,6 @@ Disallow: /categories/people/
 Disallow: /tags/php/
 
 Disallow: /categories/php/
-
-Disallow: /posts/
-
-Disallow: /tags/software-dev/
-
-Disallow: /categories/software-dev/
-
-Disallow: /tags/
 
 Disallow: /posts/gdpr-cookie-flawed/
 
