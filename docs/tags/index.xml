@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kevin Foster</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://www.kevfoster.co.uk/tags/</link>
     <description>Recent content in Tags on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Sun, 07 Sep 2025 12:40:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Company Culture</title>
-      <link>http://localhost:1313/tags/company-culture/</link>
+      <link>https://www.kevfoster.co.uk/tags/company-culture/</link>
       <pubDate>Sun, 07 Sep 2025 12:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/company-culture/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/company-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Dev</title>
-      <link>http://localhost:1313/tags/software-dev/</link>
+      <link>https://www.kevfoster.co.uk/tags/software-dev/</link>
       <pubDate>Sun, 07 Sep 2025 12:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software-dev/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/software-dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Teams</title>
-      <link>http://localhost:1313/tags/teams/</link>
+      <link>https://www.kevfoster.co.uk/tags/teams/</link>
       <pubDate>Sun, 07 Sep 2025 12:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/teams/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/teams/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookies</title>
-      <link>http://localhost:1313/tags/cookies/</link>
+      <link>https://www.kevfoster.co.uk/tags/cookies/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cookies/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/cookies/</guid>
       <description></description>
     </item>
     <item>
       <title>GDPR</title>
-      <link>http://localhost:1313/tags/gdpr/</link>
+      <link>https://www.kevfoster.co.uk/tags/gdpr/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gdpr/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/gdpr/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>http://localhost:1313/tags/hacking/</link>
+      <link>https://www.kevfoster.co.uk/tags/hacking/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hacking/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>People</title>
-      <link>http://localhost:1313/tags/people/</link>
+      <link>https://www.kevfoster.co.uk/tags/people/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/people/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/people/</guid>
       <description></description>
     </item>
     <item>
       <title>PHP</title>
-      <link>http://localhost:1313/tags/php/</link>
+      <link>https://www.kevfoster.co.uk/tags/php/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/php/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Wordpress</title>
-      <link>http://localhost:1313/tags/wordpress/</link>
+      <link>https://www.kevfoster.co.uk/tags/wordpress/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wordpress/</guid>
+      <guid>https://www.kevfoster.co.uk/tags/wordpress/</guid>
       <description></description>
     </item>
   </channel>
