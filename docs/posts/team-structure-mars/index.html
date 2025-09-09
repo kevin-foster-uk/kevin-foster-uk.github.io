@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth dark">
+  <head>
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How a Flawed Team Responsibility Structure Destroyed a Mars Mission</title>
+<meta
+  name="description"
+  content="By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start."
+/>
+<link rel="canonical" href="https://www.kevfoster.co.uk/posts/team-structure-mars/" />
+<link rel="robots" href="/robots.txt" />
+
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+
+<link rel="stylesheet" href="https://www.kevfoster.co.uk/css/app.min.b4160cf32a436fd8d53214a1bd9633d10bd7a5d9ae4d1637c20d48acf07716fd.css" /></head>
+
+  <body class="max-w-screen-md mx-auto px-2.5">
+    <div class="header">
+      <header class="flex flex-col sm:flex-row items-center gap-5 sm:gap-10 pt-16 py-12">
+   
+
+
+<div class="flex-none w-20 h-20 rounded-full overflow-hidden">
+  <a href="https://www.kevfoster.co.uk/">
+    <img
+      srcset="/img/profile-picture_hu10090986920638988592.jpg 80w"
+      src="/img/profile-picture.jpg"
+      width="272"
+      height="296"
+      alt="Kevin Foster"
+    />
+  </a>
+</div>
+
+  
+  <div class="flex flex-col gap-5">
+    <a href="https://www.kevfoster.co.uk/">
+  <h1 id="site-title">Kevin Foster</h1>
+</a>
+ 
+    <nav>
+  <ul>
+     
+    
+    <li>
+      <a href="/" class="">
+        Home
+      </a>
+    </li>
+    
+    <li>
+      <a href="/about" class="">
+        About me
+      </a>
+    </li>
+    
+    <li>
+      <a href="/categories" class="">
+        Categories
+      </a>
+    </li>
+    
+    <li>
+      <a href="/tags" class="">
+        Tags
+      </a>
+    </li>
+    
+    <li>
+      <a href="/recommendations" class="">
+        Recommendations
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+      <button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()">
+  <span class="theme-icon light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+</svg> </span>
+  <span class="theme-icon dark"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+</svg> </span>
+</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const theme = localStorage.getItem('theme');
+
+    if (!theme || theme === 'light') {
+      setTheme('light');
+    } else {
+      setTheme(theme);
+    }
+  });
+
+  function setTheme(theme) {
+    const html = document.querySelector('html');
+    localStorage.setItem('theme', theme);
+
+    if (theme === 'light') {
+      if (html.classList.contains('dark')) {
+        document.querySelector('html').classList.remove('dark');
+      }
+
+      document.querySelector('.theme-icon.light').style.display = 'none';
+      document.querySelector('.theme-icon.dark').style.display = 'block';
+    } else {
+      if (!html.classList.contains('dark')) {
+        document.querySelector('html').classList.add('dark');
+      }
+
+      document.querySelector('.theme-icon.dark').style.display = 'none';
+      document.querySelector('.theme-icon.light').style.display = 'block';
+    }
+  }
+
+  function toggleTheme() {
+    const theme = localStorage.getItem('theme');
+
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }
+</script>
+    </div>
+  
+    <main id="content">
+
+<article class="flex flex-col gap-10">
+  <header class="flex flex-col gap-2">
+    <h2 class="title-large">How a Flawed Team Responsibility Structure Destroyed a Mars Mission</h2>
+
+    <div class="meta">
+      
+      <time datetime="2025-09-09 18:22:00 &#43;0000 UTC" title='Tue, Sep 9, 2025, 6:22 PM UTC'>
+        09/09/2025
+      </time>
+
+      
+       —
+        
+          <a class="categories" href="/categories/software-dev/" alt="Software Dev">
+            Software Dev
+          </a>
+        
+          <a class="categories" href="/categories/teams/" alt="Teams">
+            Teams
+          </a>
+        
+          <a class="categories" href="/categories/company-culture/" alt="Company Culture">
+            Company Culture
+          </a>
+        
+      
+    </div>
+  </header>
+
+  
+
+  <section><p>In 1999, NASA’s Mars Climate Orbiter was minutes from entering orbit around the Red Planet. Instead, it flew too close to the atmosphere and burned up, vanishing without a trace. The cause? A software error.</p>
+<p>But not the kind you might think.</p>
+<p>The error wasn’t a complex algorithm flaw. It was a unit conversion. One software team at Lockheed Martin calculated thruster force in imperial pound-seconds. Another team at NASA’s JPL, who were guiding the spacecraft, expected the data in metric newton-seconds. The failure to convert between the two caused a navigation error so severe it doomed the $125 million mission.</p>
+<p>This wasn’t just an engineering mistake. It was a catastrophic failure of team responsibility structure.</p>
+<p><strong>The Flaw:</strong> Shared Responsibility, No Clear Ownership</p>
+<p>The project&rsquo;s structure created a deadly ambiguity. Two brilliant teams worked on different components, but the responsibility for the interface between them was shared and unclear. This &ldquo;multi-team component&rdquo; approach meant the data handoff was a fragile process, relying on documentation and human communication—a system guaranteed to fail under pressure. No single team was empowered to own the integrity of the entire thruster data stream.</p>
+<p><strong>The Fix:</strong> Designing Teams for Clear Ownership</p>
+<p>The book Team Topologies by Matthew Skelton and Manuel Pais provides the blueprint for preventing this exact disaster. The solution is to design team structures that mandate clear ownership and minimize ambiguous handoffs.</p>
+<p>Instead of organizing teams around components (the thrusters vs. the navigation system), you organize them around streams of change and clear interfaces.</p>
+<ol>
+<li>Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission—in this case, &ldquo;Orbital Insertion.&rdquo; This team is empowered with all the skills to manage the navigation and the data it depends on.</li>
+<li>Define Platforms with API Contracts: The thruster system, provided by another team, shouldn&rsquo;t be a vague component. It should be a platform with a well-defined, immutable API. Imagine the Lockheed team providing a service with a function called getThrustInNewtonSeconds().</li>
+<li>Clarify Responsibility through Interfaces: The navigation team simply calls that function. The unit of measurement is baked into the function name and return type, making a mix-up impossible for a developer to miss and trivial for a test to catch. The API is the contract, and the platform team owns everything behind it.</li>
+</ol>
+<p><strong>The Bottom Line:</strong> Structure Teams for Clarity</p>
+<p>The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it—a principle known as Conway’s Law.</p>
+<p>A sound team responsibility structure isn&rsquo;t about organizational charts; it&rsquo;s the bedrock of system reliability. By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start.</p>
+<p>In software, a flawed team structure causes outages and frustration. In aerospace, it costs $125 million and a mission to Mars.</p>
+<p>Let’s learn from the past and build our teams as intentionally as we build our systems.</p>
+<p>To learn more about structuring teams for success, visit <a href="https://teamtopologies.com/">https://teamtopologies.com/</a>.</p>
+</section>
+
+  
+    
+  
+
+    
+  
+
+
+  <footer>
+    
+      <div class="pb-14 taxonomy-list tags-list">
+      
+        <a href="/tags/software-dev/" alt="Software Dev">
+          Software Dev
+        </a>
+      
+        <a href="/tags/teams/" alt="Teams">
+          Teams
+        </a>
+      
+        <a href="/tags/company-culture/" alt="Company Culture">
+          Company Culture
+        </a>
+      
+      </div>
+    
+  </footer>
+</article>
+
+
+    </main><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
+    <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1">
+  © 2025 —
+  <a href="https://www.kevfoster.co.uk/">Kevin Foster</a> 
+  <span class="font-normal">with</span>
+  <a
+    href="https://github.com/nixentric/Lowkey-Hugo-Theme"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Lowkey
+  </a>
+</div>
+
+    <div class="order-1 sm:order-2">
+  <ul class="flex sm:justify-end gap-5">
+    
+    
+    <li>    
+      <a href="https://github.com/kevin-foster-uk" target="_blank" rel="me noopener noreferrer">GitHub</a>
+    </li>
+    
+    
+  </ul>
+</div>
+
+</footer></body>
+</html>

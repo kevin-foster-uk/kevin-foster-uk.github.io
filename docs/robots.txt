@@ -1,7 +1,5 @@
 User-agent: *
 
-Disallow: /posts/software-teams-that-thrive/
-
 Disallow: /categories/
 
 Disallow: /tags/company-culture/
@@ -9,6 +7,8 @@ Disallow: /tags/company-culture/
 Disallow: /categories/company-culture/
 
 Disallow: /
+
+Disallow: /posts/team-structure-mars/
 
 Disallow: /posts/
 
@@ -21,6 +21,8 @@ Disallow: /tags/
 Disallow: /tags/teams/
 
 Disallow: /categories/teams/
+
+Disallow: /posts/software-teams-that-thrive/
 
 Disallow: /tags/cookies/
 

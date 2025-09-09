@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 12:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 18:22:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/tags/software-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How a Flawed Team Responsibility Structure Destroyed a Mars Mission</title>
+      <link>https://www.kevfoster.co.uk/posts/team-structure-mars/</link>
+      <pubDate>Tue, 09 Sep 2025 18:22:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/team-structure-mars/</guid>
+      <description>In 1999, NASA’s Mars Climate Orbiter was minutes from entering orbit around the Red Planet. Instead, it flew too close to the atmosphere and burned up, vanishing without a trace.</description>
+    </item>
     <item>
       <title>Building Software Teams That Thrive: It&#39;s About People, Not Process</title>
       <link>https://www.kevfoster.co.uk/posts/software-teams-that-thrive/</link>
