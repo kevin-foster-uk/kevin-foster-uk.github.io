@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Tue, 09 Sep 2025 18:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 11:43:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autism</title>
+      <link>https://www.kevfoster.co.uk/tags/autism/</link>
+      <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/autism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>https://www.kevfoster.co.uk/tags/people/</link>
+      <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/people/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Company Culture</title>
       <link>https://www.kevfoster.co.uk/tags/company-culture/</link>
@@ -49,13 +63,6 @@
       <link>https://www.kevfoster.co.uk/tags/hacking/</link>
       <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/tags/hacking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>People</title>
-      <link>https://www.kevfoster.co.uk/tags/people/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/tags/people/</guid>
       <description></description>
     </item>
     <item>

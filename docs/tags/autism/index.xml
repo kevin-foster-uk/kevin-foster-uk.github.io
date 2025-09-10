@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>People on Kevin Foster</title>
-    <link>https://www.kevfoster.co.uk/tags/people/</link>
-    <description>Recent content in People on Kevin Foster</description>
+    <title>Autism on Kevin Foster</title>
+    <link>https://www.kevfoster.co.uk/tags/autism/</link>
+    <description>Recent content in Autism on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Wed, 10 Sep 2025 11:43:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kevfoster.co.uk/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/tags/autism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Two-Way Street of Misunderstanding: A Look at the Double Empathy Problem</title>
       <link>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</link>
       <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</guid>
       <description>We all do it. We meet someone new, and our minds instantly begin sorting them into a box.</description>
-    </item>
-    <item>
-      <title>Tribal Tests: How Harsh Environments Expose a Lack of Wisdom</title>
-      <link>https://www.kevfoster.co.uk/posts/tribal-tests/</link>
-      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/posts/tribal-tests/</guid>
-      <description>When we romanticize tribal life, we imagine close-knit communities guided by the serene wisdom of elders.</description>
     </item>
   </channel>
 </rss>
