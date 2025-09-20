@@ -27,7 +27,7 @@ Compliance isn’t free. Implementing a compliant consent system requires legal 
 
 #### Questionable Privacy Gains
 
-Perhaps the most significant criticism is that the law doesn’t always achieve its primary goal. Many pop-ups use dark patterns—deceptive designs that make rejecting cookies harder than accepting them. Furthermore, determined trackers can find ways to fingerprint users or rely on “legitimate interest” claims, bypassing the need for consent altogether.
+Perhaps the most significant criticism is that the law doesn’t always achieve its primary goal. Many pop-ups use dark patterns, deceptive designs that make rejecting cookies harder than accepting them. Furthermore, determined trackers can find ways to fingerprint users or rely on “legitimate interest” claims, bypassing the need for consent altogether.
 
 #### A Messy, Inconsistent Rollout
 
