@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-GB" class="scroll-smooth dark">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +10,7 @@
   name="description"
   content="By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start."
 />
-<link rel="canonical" href="https://www.kevfoster.co.uk/posts/team-structure-mars/" />
+<link rel="canonical" href="http://localhost:1313/posts/team-structure-mars/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
@@ -20,7 +20,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
 
-<link rel="stylesheet" href="https://www.kevfoster.co.uk/css/app.min.b4160cf32a436fd8d53214a1bd9633d10bd7a5d9ae4d1637c20d48acf07716fd.css" /></head>
+<link rel="stylesheet" href="http://localhost:1313/css/app.css" /></head>
 
   <body class="max-w-screen-md mx-auto px-2.5">
     <div class="header">
@@ -29,7 +29,7 @@
 
 
 <div class="flex-none w-20 h-20 rounded-full overflow-hidden">
-  <a href="https://www.kevfoster.co.uk/">
+  <a href="http://localhost:1313/">
     <img
       srcset="/img/profile-picture_hu10090986920638988592.jpg 80w"
       src="/img/profile-picture.jpg"
@@ -42,7 +42,7 @@
 
   
   <div class="flex flex-col gap-5">
-    <a href="https://www.kevfoster.co.uk/">
+    <a href="http://localhost:1313/">
   <h1 id="site-title">Kevin Foster</h1>
 </a>
  
@@ -177,17 +177,17 @@
 <p>The error wasn’t a complex algorithm flaw. It was a unit conversion. One software team at Lockheed Martin calculated thruster force in imperial pound-seconds. Another team at NASA’s JPL, who were guiding the spacecraft, expected the data in metric newton-seconds. The failure to convert between the two caused a navigation error so severe it doomed the $125 million mission.</p>
 <p>This wasn’t just an engineering mistake. It was a catastrophic failure of team responsibility structure.</p>
 <p><strong>The Flaw:</strong> Shared Responsibility, No Clear Ownership</p>
-<p>The project&rsquo;s structure created a deadly ambiguity. Two brilliant teams worked on different components, but the responsibility for the interface between them was shared and unclear. This &ldquo;multi-team component&rdquo; approach meant the data handoff was a fragile process, relying on documentation and human communication—a system guaranteed to fail under pressure. No single team was empowered to own the integrity of the entire thruster data stream.</p>
+<p>The project&rsquo;s structure created a deadly ambiguity. Two brilliant teams worked on different components, but the responsibility for the interface between them was shared and unclear. This &ldquo;multi-team component&rdquo; approach meant the data handoff was a fragile process, relying on documentation and human communication, a system guaranteed to fail under pressure. No single team was empowered to own the integrity of the entire thruster data stream.</p>
 <p><strong>The Fix:</strong> Designing Teams for Clear Ownership</p>
 <p>The book Team Topologies by Matthew Skelton and Manuel Pais provides the blueprint for preventing this exact disaster. The solution is to design team structures that mandate clear ownership and minimize ambiguous handoffs.</p>
 <p>Instead of organizing teams around components (the thrusters vs. the navigation system), you organize them around streams of change and clear interfaces.</p>
 <ol>
-<li>Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission—in this case, &ldquo;Orbital Insertion.&rdquo; This team is empowered with all the skills to manage the navigation and the data it depends on.</li>
+<li>Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission, in this case, &ldquo;Orbital Insertion.&rdquo; This team is empowered with all the skills to manage the navigation and the data it depends on.</li>
 <li>Define Platforms with API Contracts: The thruster system, provided by another team, shouldn&rsquo;t be a vague component. It should be a platform with a well-defined, immutable API. Imagine the Lockheed team providing a service with a function called getThrustInNewtonSeconds().</li>
 <li>Clarify Responsibility through Interfaces: The navigation team simply calls that function. The unit of measurement is baked into the function name and return type, making a mix-up impossible for a developer to miss and trivial for a test to catch. The API is the contract, and the platform team owns everything behind it.</li>
 </ol>
 <p><strong>The Bottom Line:</strong> Structure Teams for Clarity</p>
-<p>The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it—a principle known as Conway’s Law.</p>
+<p>The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it, a principle known as Conway’s Law.</p>
 <p>A sound team responsibility structure isn&rsquo;t about organizational charts; it&rsquo;s the bedrock of system reliability. By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start.</p>
 <p>In software, a flawed team structure causes outages and frustration. In aerospace, it costs $125 million and a mission to Mars.</p>
 <p>Let’s learn from the past and build our teams as intentionally as we build our systems.</p>
@@ -227,7 +227,7 @@
     </main><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
     <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1">
   © 2025 —
-  <a href="https://www.kevfoster.co.uk/">Kevin Foster</a> 
+  <a href="http://localhost:1313/">Kevin Foster</a> 
   <span class="font-normal">with</span>
   <a
     href="https://github.com/nixentric/Lowkey-Hugo-Theme"

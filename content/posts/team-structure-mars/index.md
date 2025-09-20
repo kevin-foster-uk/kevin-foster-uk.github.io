@@ -25,7 +25,7 @@ This wasn’t just an engineering mistake. It was a catastrophic failure of team
 
 **The Flaw:** Shared Responsibility, No Clear Ownership
 
-The project's structure created a deadly ambiguity. Two brilliant teams worked on different components, but the responsibility for the interface between them was shared and unclear. This "multi-team component" approach meant the data handoff was a fragile process, relying on documentation and human communication—a system guaranteed to fail under pressure. No single team was empowered to own the integrity of the entire thruster data stream.
+The project's structure created a deadly ambiguity. Two brilliant teams worked on different components, but the responsibility for the interface between them was shared and unclear. This "multi-team component" approach meant the data handoff was a fragile process, relying on documentation and human communication, a system guaranteed to fail under pressure. No single team was empowered to own the integrity of the entire thruster data stream.
 
 **The Fix:** Designing Teams for Clear Ownership
 
@@ -33,13 +33,13 @@ The book Team Topologies by Matthew Skelton and Manuel Pais provides the bluepri
 
 Instead of organizing teams around components (the thrusters vs. the navigation system), you organize them around streams of change and clear interfaces.
 
-1. Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission—in this case, "Orbital Insertion." This team is empowered with all the skills to manage the navigation and the data it depends on.
+1. Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission, in this case, "Orbital Insertion." This team is empowered with all the skills to manage the navigation and the data it depends on.
 2. Define Platforms with API Contracts: The thruster system, provided by another team, shouldn't be a vague component. It should be a platform with a well-defined, immutable API. Imagine the Lockheed team providing a service with a function called getThrustInNewtonSeconds().
 3. Clarify Responsibility through Interfaces: The navigation team simply calls that function. The unit of measurement is baked into the function name and return type, making a mix-up impossible for a developer to miss and trivial for a test to catch. The API is the contract, and the platform team owns everything behind it.
 
 **The Bottom Line:** Structure Teams for Clarity
 
-The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it—a principle known as Conway’s Law.
+The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it, a principle known as Conway’s Law.
 
 A sound team responsibility structure isn't about organizational charts; it's the bedrock of system reliability. By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start.
 

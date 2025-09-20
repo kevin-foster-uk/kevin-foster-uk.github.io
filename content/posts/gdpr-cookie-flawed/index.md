@@ -13,17 +13,13 @@ tags:
   - Software Dev
 ---
 
-If you’ve visited a website in the past few years, you’ve seen it: the now-ubiquitous cookie consent pop-up. Mandated by the EU’s GDPR and ePrivacy Directive, these banners were designed to give us control over our online data. But years after their introduction, a growing chorus of critics argues that the so-called “cookie law” is a well-intentioned failure.
+Mandated by the EU’s GDPR and ePrivacy Directive, the now-ubiquitous cookie consent pop-up banners were designed to give us control over our online data. But years after their introduction, a growing chorus of critics argues that the so-called “cookie law” is a well-intentioned failure.
 
 So, what went wrong?
 
 #### Consent Fatigue Has Won
 
-The most obvious issue is banner fatigue. Instead of thoughtfully considering their privacy choices, most people instinctively hammer the “Accept All” button just to make the pop-up disappear. This has turned a tool meant to empower users into a mere inconvenience they blindly click through, defeating the very purpose of informed consent.
-
-#### A Bad User Experience
-
-Let’s be honest: these pop-ups are annoying. They interrupt reading, clutter beautiful designs, and create a fragmented browsing experience. Some websites, particularly small independent ones, have even chosen to block EU visitors entirely rather than navigate the complex legal maze, reducing access to information and services.
+The most obvious issue is banner fatigue. Instead of thoughtfully considering their privacy choices, most people instinctively hammer the “Accept All” button just to make the pop-up disappear. This has turned a tool meant to empower users into a mere inconvenience they blindly click through, defeating the very purpose of informed consent.Let’s be honest: these pop-ups are annoying. They interrupt reading, clutter beautiful designs, and create a fragmented browsing experience.
 
 #### A Boon for Big Tech, a Burden for Small Business
 

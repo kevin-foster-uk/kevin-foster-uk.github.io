@@ -10,7 +10,7 @@ tags:
   - People
 ---
 
-When we romanticize tribal life, we imagine close-knit communities guided by the serene wisdom of elders. While that can be true, the reality is often more complex. Many tribal environments are crucibles of intense pressure—scarce resources, external threats, and internal power struggles. In such settings, it’s not just wisdom that is revealed; foolishness is amplified, often with devastating consequences.
+When we romanticize tribal life, we imagine close-knit communities guided by the serene wisdom of elders. While that can be true, the reality is often more complex. Many tribal environments are crucibles of intense pressure, scarce resources, external threats, and internal power struggles. In such settings, it’s not just wisdom that is revealed; foolishness is amplified, often with devastating consequences.
 
 These environments don’t just test survival skills; they test judgment. And in a world where a single bad decision can doom the entire group, those who lack wisdom are quickly exposed. Here’s how:
 
@@ -20,7 +20,7 @@ These environments don’t just test survival skills; they test judgment. And in
 
 3. The Recklessness of Revenge A wise person understands that some battles must be ended for the greater good.A foolish one is governed by pride and the impulse for vengeance. They prolong blood feuds that drain the tribe’s resources and manpower, prioritizing a perceived slight over the community’s long-term stability and safety.
 
-4. The Scourge of Scapegoating When disaster strikes—a drought,a sickness, a bad hunt—the unwise default to superstition over solution. They look for a witch to blame or a taboo that was broken instead of analyzing practical causes. This not only leads to the unjust punishment of innocent members but also ensures the real problem is never solved, inevitably repeating the crisis.
+4. The Scourge of Scapegoating When disaster strikes, a drought,a sickness, a bad hunt, the unwise default to superstition over solution. They look for a witch to blame or a taboo that was broken instead of analyzing practical causes. This not only leads to the unjust punishment of innocent members but also ensures the real problem is never solved, inevitably repeating the crisis.
 
 The Unwisdom of Stagnation Perhaps the greatest revealer of foolishness is a refusal to adapt. The unwise hide behind the mantra of "tradition" to resist any change, even when new tools, medicines, or strategies could save lives. They mistake rigidity for strength, ultimately making the tribe fragile and unable to face new threats.
 
