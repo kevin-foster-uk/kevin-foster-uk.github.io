@@ -34,4 +34,4 @@ WordPress's popularity makes it a giant target. While the core has become much m
 
 Absolutely. For blogs, marketing sites, brochureware, and any project where a client needs to manage content easily, WordPress is often the best choice. The criticism isn't that WordPress is "bad," but rather that it is not ideally suited for every task.
 
-The key is to choose the right tool for the job. For empowering users to publish content and manage their own sites, WordPress’s benefits continue to outweigh its technical debts.  -m The conversation around its codebase is a sign of a mature platform. Understanding these limitations is the first step to working within them, or wisely choosing to use a different tool altogether.
+The key is to choose the right tool for the job. For empowering users to publish content and manage their own sites, WordPress’s benefits continue to outweigh its technical debts. The conversation around its codebase is a sign of a mature platform. Understanding these limitations is the first step to working within them, or wisely choosing to use a different tool altogether.
