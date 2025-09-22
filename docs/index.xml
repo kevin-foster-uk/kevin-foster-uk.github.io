@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Wed, 10 Sep 2025 11:43:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommendations</title>
+      <link>https://www.kevfoster.co.uk/recommendations/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/recommendations/</guid>
+      <description>Rami Shenouda Software Developer at LimeSurvey GmbH&#xA;I had the chance to work closely with Kevin on both front-end and back-end projects.</description>
+    </item>
     <item>
       <title>The Two-Way Street of Misunderstanding: A Look at the Double Empathy Problem</title>
       <link>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</link>
@@ -78,13 +85,6 @@
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/about/</guid>
       <description>I&amp;rsquo;m a freelance software developer based in Liverpool, England, with 20 years of experience developing software.</description>
-    </item>
-    <item>
-      <title>Recommendations</title>
-      <link>https://www.kevfoster.co.uk/recommendations/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/recommendations/</guid>
-      <description>Alen Bubich Co-Founder, CityBlast Media Inc.&#xA;If you&amp;rsquo;re looking for a programmer who cares about the quality of his code and more importantly cares about your business, Kevin is your guy.</description>
     </item>
   </channel>
 </rss>

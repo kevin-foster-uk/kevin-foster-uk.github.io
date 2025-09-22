@@ -1,13 +1,19 @@
 ---
 title: "Recommendations"
-date: 2025-09-01
+date: 2025-09-22
 description: "Learn more about me and my work"
 type: "page"
 ---
 
+### Rami Shenouda
+*Software Developer at LimeSurvey GmbH*
+>I had the chance to work closely with Kevin on both front-end and back-end projects. He helped me a lot with React and set up a solid structure for the front end, while also building the full API in PHP from the ground up.
 
-Alen Bubich
-Co-Founder, CityBlast Media Inc.
+>Kevin is not only a talented engineer but also a real team player. He made work fun with his humor and positive energy, and it was always great to collaborate with him.
+
+
+### Alen Bubich
+*Co-Founder, CityBlast Media Inc.*
 > If you're looking for a programmer who cares about the quality of his code and more importantly cares about your business, Kevin is your guy. He has a deep understanding of object oriented programming, server management, development "hygiene" (version control, bug tracking, continuous integration, etc) and general web development at large (CDN's, SSL, cloud computing, web hosting, database management, etc.)
 
 > Kevin is exceptional when it comes to attention to detail. His code is virtually bug-free and he was always the first guy I would send in to find errors with the other programmers’ code.
@@ -17,16 +23,16 @@ Co-Founder, CityBlast Media Inc.
 > He was an asset to our company and doubtlessly will be one to yours too.
 
 
-Carly Jayne Crowder
-General Manager, Dolphin Music
+### Carly Jayne Crowder
+*General Manager, Dolphin Music*
 > Kevin came into Dolphin Music in 2011 as a Web Developer and was able to quickly and confidently pick up a series of intricate systems with ease. He was was able to work on numerous business critical activities and produce significant results in a short space of time. He is passionate about detailed documentation and I would commend his ability to prioritise (through some lovely lists!).
 
-Michael Helm
-I.T. Director, iknow-uk Ltd
+### Michael Helm
+*I.T. Director, iknow-uk Ltd*
 > I can definitely recommend Kevin, he is an excellent PHP developer and always worked well with the team here. He was a proponent of a proper version control system, which we have embraced and continue to roll out even after he left us. Kevin works well and to a very high standard in all aspect of programming.
 
-Geoffrey Hoffman
-Salient Digital, inc.
+### Geoffrey Hoffman
+*Salient Digital, inc.*
 > On numerous occasions, Kevin Foster has helped my clients and my projects grow faster and with more finesse than they would have without his involvement.
 
 > Kevin's rich understanding of online software development, using multiple programming languages and techniques, combined with his exceptional attention to detail while providing easy-to-read reusable code have made Kevin an integral part of multiple successful projects over the past several years.
