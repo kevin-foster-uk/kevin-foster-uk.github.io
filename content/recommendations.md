@@ -6,7 +6,7 @@ type: "page"
 ---
 
 ### Rami Shenouda
-*Software Developer at LimeSurvey GmbH*
+*Software Developer, LimeSurvey GmbH*
 >I had the chance to work closely with Kevin on both front-end and back-end projects. He helped me a lot with React and set up a solid structure for the front end, while also building the full API in PHP from the ground up.
 
 >Kevin is not only a talented engineer but also a real team player. He made work fun with his humor and positive energy, and it was always great to collaborate with him.
