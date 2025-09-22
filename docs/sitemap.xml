@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.kevfoster.co.uk/categories/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/complexity/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/categories/complexity/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.kevfoster.co.uk/</loc>
-    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/posts/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/software-dev/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/categories/software-dev/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/posts/complexity-unnecessary/</loc>
+    <lastmod>2025-09-22T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/recommendations/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
@@ -14,19 +38,10 @@
     <loc>https://www.kevfoster.co.uk/categories/autism/</loc>
     <lastmod>2025-09-10T11:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.kevfoster.co.uk/categories/</loc>
-    <lastmod>2025-09-10T11:43:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.kevfoster.co.uk/tags/people/</loc>
     <lastmod>2025-09-10T11:43:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/categories/people/</loc>
-    <lastmod>2025-09-10T11:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/posts/</loc>
-    <lastmod>2025-09-10T11:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/tags/</loc>
     <lastmod>2025-09-10T11:43:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</loc>
@@ -39,12 +54,6 @@
     <lastmod>2025-09-09T18:22:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/posts/team-structure-mars/</loc>
-    <lastmod>2025-09-09T18:22:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/tags/software-dev/</loc>
-    <lastmod>2025-09-09T18:22:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/categories/software-dev/</loc>
     <lastmod>2025-09-09T18:22:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/tags/teams/</loc>

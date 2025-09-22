@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Wed, 10 Sep 2025 11:43:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 11:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taming the Beast: The Two Kinds of Complexity in Software</title>
+      <link>https://www.kevfoster.co.uk/posts/complexity-unnecessary/</link>
+      <pubDate>Mon, 22 Sep 2025 11:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/complexity-unnecessary/</guid>
+      <description>Every software developer knows the feeling of being overwhelmed by complexity. It comes from every direction: user requirements, technology choices, deployment processes, and team dynamics.</description>
+    </item>
     <item>
       <title>The Two-Way Street of Misunderstanding: A Look at the Double Empathy Problem</title>
       <link>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</link>
