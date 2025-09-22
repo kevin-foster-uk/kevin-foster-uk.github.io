@@ -1,7 +1,7 @@
 ---
 title: "Recommendations"
 date: 2025-09-22
-description: "Learn more about me and my work"
+description: "What people say about me"
 type: "page"
 ---
 
