@@ -18,7 +18,7 @@ This principle is most clearly tested by those in power. Politicians, CEOs, mana
 
 We see this dynamic clearly. Supporters may grant figures like Donald Trump or Elon Musk respect based on their power and wealth. Yet, their documented behavior, marked by dishonesty and a lack of compassion, leads many to believe they have forfeited their right to it. Respect becomes a conflict between the position and the person's conduct.
 
-Crucially, this works in reverse. A person without social power—a service worker, a junior employee, or anyone in a marginalized position—deserves the same baseline of respect. Often, they are the ones who consistently demonstrate the attributes that truly affirm its worth, such as integrity and kindness, without any expectation of special treatment. Their worth is proven daily through their actions, not their title.
+Crucially, this works in reverse. A person without social power, a service worker, a junior employee, or anyone in a marginalized position, deserves the same baseline of respect. Often, they are the ones who consistently demonstrate the attributes that truly affirm its worth, such as integrity and kindness, without any expectation of special treatment. Their worth is proven daily through their actions, not their title.
 
 Therefore, the measure of a person is never their status. When deciding who deserves your respect, ignore the title and look at the behavior. Do they act with fairness and care for others? Or do they simply expect deference?
 
