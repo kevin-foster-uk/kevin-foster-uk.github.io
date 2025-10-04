@@ -15,3 +15,35 @@
     {{- $styles := $styles | minify | fingerprint | resources.PostProcess -}}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
 {{- end -}}
+
+
+<style>
+
+
+/* Target specific text elements in Mermaid */
+.mermaid text,
+.mermaid tspan,
+.mermaid .label,
+.mermaid .nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .clusterLabel,
+.mermaid .label text,
+.mermaid [class*="Label"] {
+  font-size: 18px !important;
+  font-family: Arial, sans-serif !important;
+}
+
+/* Specific diagram types */
+.mermaid .flowchart-label text,
+.mermaid .sequence-diagram text,
+.mermaid .classDiagram-label text,
+.mermaid .stateDiagram-label text {
+  font-size: 18px !important;
+}
+
+.mermaid .label {
+  text-align: center !important;
+  dominant-baseline: middle !important;
+  text-anchor: middle !important;
+}
+</style>

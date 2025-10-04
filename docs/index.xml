@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Fri, 26 Sep 2025 08:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 09:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplifying SaaS Authentication Across Multiple Domains</title>
+      <link>https://www.kevfoster.co.uk/posts/auth-multi-domain/</link>
+      <pubDate>Sat, 04 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/auth-multi-domain/</guid>
+      <description>When building a SaaS application, it is common to give each customer their own subdomain or custom domain.</description>
+    </item>
     <item>
       <title>Respect is Owed, But It Can Be Lost</title>
       <link>https://www.kevfoster.co.uk/posts/respect-owed-and-lost/</link>

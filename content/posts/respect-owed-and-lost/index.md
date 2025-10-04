@@ -6,10 +6,8 @@ date: 2025-09-26T8:50:00.000Z
 description: "Respect is a default setting for human interaction. It is maintained or lost through character. It is not a privilege of power, but a reflection of how we treat one another."
 categories:
   - People
-  - Teams
 tags:
   - People
-  - Teams
 ---
 
 A fundamental truth about respect is often forgotten. Respect is not a reward to be earned. It is a baseline owed to every person. The real question is not who must earn it, but who, through their actions, shows themselves to be unworthy of it.
