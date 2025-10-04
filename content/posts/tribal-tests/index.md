@@ -18,7 +18,7 @@ These environments don’t just test survival skills; they test judgment. And in
 
 2. The Rule of Fear, Not Foresight In a power vacuum,the loudest and most aggressive often seize control, not the wisest. The foolish use fear, superstition, and brute force to maintain order. They demand blind loyalty, punish questioning, and rule through intimidation. This crushes innovation and creates a culture of paranoia where the tribe’s energy is wasted on internal policing instead of external challenges.
 
-3. The Recklessness of Revenge A wise person understands that some battles must be ended for the greater good.A foolish one is governed by pride and the impulse for vengeance. They prolong blood feuds that drain the tribe’s resources and manpower, prioritizing a perceived slight over the community’s long-term stability and safety.
+3. The Recklessness of Revenge A wise person understands that some battles must be ended for the greater good. A foolish one is governed by pride and the impulse for vengeance. They prolong blood feuds that drain the tribe’s resources and manpower, prioritizing a perceived slight over the community’s long-term stability and safety.
 
 4. The Scourge of Scapegoating When disaster strikes, a drought,a sickness, a bad hunt, the unwise default to superstition over solution. They look for a witch to blame or a taboo that was broken instead of analyzing practical causes. This not only leads to the unjust punishment of innocent members but also ensures the real problem is never solved, inevitably repeating the crisis.
 
