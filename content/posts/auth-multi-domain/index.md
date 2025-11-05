@@ -13,11 +13,11 @@ tags:
   - CORS
 ---
 
-When building a SaaS application, it's common to provide each customer with their own subdomain or custom domain. However, you typically need a centralized system for user authentication and management. This centralized approach is crucial for billing, as it maps users to their subscribed services.
+When building a SaaS application, it's common to provide each customer with their own subdomain or custom domain. However, you typically need a centralised system for user authentication and management. This centralised approach is crucial for billing, as it maps users to their subscribed services.
 
 Users often need access to multiple application instances, making a single-sign-on (SSO) system essential. SSO eliminates the friction of managing separate logins for each instance and repeatedly logging in and out.
 
-Combining custom domains with centralized authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another's stored data, making authentication state sharing challenging.
+Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another's stored data, making authentication state sharing challenging.
 
 Traditional solutions typically redirect users to a central authentication system and back, requiring backend services to communicate. While functional, this process can feel clunky.
 
@@ -34,7 +34,7 @@ Here is how the process works:
 5. The auth server returns a JWT containing basic user information along with unencrypted metadata, including a list of domains the user has permission to access
 6. The system confirms that app.domain.com is on the user's permitted list
 7. Using postMessage, the JWT is sent to the pre-opened popup window
-8. The target domain receives the JWT and initializes its local authentication session
+8. The target domain receives the JWT and initialises its local authentication session
 9. The popup sends a success message back to the parent window
 10. The parent window closes the popup and redirects the user to app.domain.com
 
@@ -65,7 +65,7 @@ sequenceDiagram
 
   Note over U, P: Step 7: JWT Transfer via postMessage
   Auth->>P: postMessage(JWT)
-  P->>P: JWT received, initializes local session
+  P->>P: JWT received, initialises local session
 
   Note over U, P: Step 8-9: Success Confirmation & Redirect
   P->>Auth: postMessage("success")
@@ -73,7 +73,7 @@ sequenceDiagram
   U->>A: Accesses protected page with valid local session
 ```
 
-Since browsers only allow popups to open in direct response to user actions, the child window must be opened when the user clicks the login button. The authentication form then displays a "Processing..." state while the backend validation occurs. If authentication fails, the popup closes and an error message is displayed. If successful, the JWT transfer proceeds as described.
+Since browsers only allow popup's to open in direct response to user actions, the child window must be opened when the user clicks the login button. The authentication form then displays a "Processing..." state while the backend validation occurs. If authentication fails, the popup closes and an error message is displayed. If successful, the JWT transfer proceeds as described.
 
 This implementation doesn't require any special server configuration such as CORS (Cross-Origin Resource Sharing). The authentication flow relies on standard browser redirects, popup windows, and the postMessage API for cross-domain communication, all of which work without CORS configuration.
 

@@ -197,9 +197,9 @@
 
   
 
-  <section><p>When building a SaaS application, it&rsquo;s common to provide each customer with their own subdomain or custom domain. However, you typically need a centralized system for user authentication and management. This centralized approach is crucial for billing, as it maps users to their subscribed services.</p>
+  <section><p>When building a SaaS application, it&rsquo;s common to provide each customer with their own subdomain or custom domain. However, you typically need a centralised system for user authentication and management. This centralised approach is crucial for billing, as it maps users to their subscribed services.</p>
 <p>Users often need access to multiple application instances, making a single-sign-on (SSO) system essential. SSO eliminates the friction of managing separate logins for each instance and repeatedly logging in and out.</p>
-<p>Combining custom domains with centralized authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another&rsquo;s stored data, making authentication state sharing challenging.</p>
+<p>Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another&rsquo;s stored data, making authentication state sharing challenging.</p>
 <p>Traditional solutions typically redirect users to a central authentication system and back, requiring backend services to communicate. While functional, this process can feel clunky.</p>
 <h3 id="a-client-side-approach-with-jwt-and-popups">A Client-Side Approach with JWT and Popups</h3>
 <p>What if we could handle multi-domain authentication entirely client-side, without additional server communication? We can achieve this using JSON Web Tokens (JWT) and the browser&rsquo;s postMessage API.</p>
@@ -212,7 +212,7 @@
 <li>The auth server returns a JWT containing basic user information along with unencrypted metadata, including a list of domains the user has permission to access</li>
 <li>The system confirms that app.domain.com is on the user&rsquo;s permitted list</li>
 <li>Using postMessage, the JWT is sent to the pre-opened popup window</li>
-<li>The target domain receives the JWT and initializes its local authentication session</li>
+<li>The target domain receives the JWT and initialises its local authentication session</li>
 <li>The popup sends a success message back to the parent window</li>
 <li>The parent window closes the popup and redirects the user to app.domain.com</li>
 </ol>
@@ -242,14 +242,14 @@
 
   Note over U, P: Step 7: JWT Transfer via postMessage
   Auth-&gt;&gt;P: postMessage(JWT)
-  P-&gt;&gt;P: JWT received, initializes local session
+  P-&gt;&gt;P: JWT received, initialises local session
 
   Note over U, P: Step 8-9: Success Confirmation &amp; Redirect
   P-&gt;&gt;Auth: postMessage(&#34;success&#34;)
   Auth-&gt;&gt;U: Closes popup &amp; redirects to app.domain.com
   U-&gt;&gt;A: Accesses protected page with valid local session
 </pre>
-<p>Since browsers only allow popups to open in direct response to user actions, the child window must be opened when the user clicks the login button. The authentication form then displays a &ldquo;Processing&hellip;&rdquo; state while the backend validation occurs. If authentication fails, the popup closes and an error message is displayed. If successful, the JWT transfer proceeds as described.</p>
+<p>Since browsers only allow popup&rsquo;s to open in direct response to user actions, the child window must be opened when the user clicks the login button. The authentication form then displays a &ldquo;Processing&hellip;&rdquo; state while the backend validation occurs. If authentication fails, the popup closes and an error message is displayed. If successful, the JWT transfer proceeds as described.</p>
 <p>This implementation doesn&rsquo;t require any special server configuration such as CORS (Cross-Origin Resource Sharing). The authentication flow relies on standard browser redirects, popup windows, and the postMessage API for cross-domain communication, all of which work without CORS configuration.</p>
 <p>This approach delivers a clean, user-friendly single-sign-on experience across multiple customer domains, simplifying a usually complex aspect of SaaS architecture.</p>
 </section>
