@@ -29,9 +29,9 @@ The project's structure created a deadly ambiguity. Two brilliant teams worked o
 
 **The Fix:** Designing Teams for Clear Ownership
 
-The book Team Topologies by Matthew Skelton and Manuel Pais provides the blueprint for preventing this exact disaster. The solution is to design team structures that mandate clear ownership and minimize ambiguous handoffs.
+The book Team Topologies by Matthew Skelton and Manuel Pais provides the blueprint for preventing this exact disaster. The solution is to design team structures that mandate clear ownership and minimise ambiguous handoffs.
 
-Instead of organizing teams around components (the thrusters vs. the navigation system), you organize them around streams of change and clear interfaces.
+Instead of organizing teams around components (the thrusters vs. the navigation system), you organise them around streams of change and clear interfaces.
 
 1. Form a Stream-Aligned Team with E2E Ownership: A single, cross-functional team should have end-to-end ownership of the core mission, in this case, "Orbital Insertion." This team is empowered with all the skills to manage the navigation and the data it depends on.
 2. Define Platforms with API Contracts: The thruster system, provided by another team, shouldn't be a vague component. It should be a platform with a well-defined, immutable API. Imagine the Lockheed team providing a service with a function called getThrustInNewtonSeconds().
@@ -41,7 +41,7 @@ Instead of organizing teams around components (the thrusters vs. the navigation 
 
 The Mars Climate Orbiter’s fate was sealed not when the code was written, but when the org chart was drawn. The software architecture will always reflect the communication structure of the teams that build it, a principle known as Conway’s Law.
 
-A sound team responsibility structure isn't about organizational charts; it's the bedrock of system reliability. By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start.
+A sound team responsibility structure isn't about organisational charts; it's the bedrock of system reliability. By designing teams for clarity and ownership first, we reduce cognitive load, eliminate fuzzy handoffs, and build in quality from the start.
 
 In software, a flawed team structure causes outages and frustration. In aerospace, it costs $125 million and a mission to Mars.
 
