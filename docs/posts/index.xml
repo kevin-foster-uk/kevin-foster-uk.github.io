@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 12:12:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s Not Complicated: Why We Must Speak Up on Gaza</title>
+      <link>https://www.kevfoster.co.uk/posts/gazza-genocide-not-complicated/</link>
+      <pubDate>Sun, 09 Nov 2025 12:12:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/gazza-genocide-not-complicated/</guid>
+      <description>Lately, I have been feeling so frustrated. When the talk turns to the terrible suffering in Gaza, I hear the same thing again and again.</description>
+    </item>
     <item>
       <title>Simplifying SaaS Authentication Across Multiple Domains</title>
       <link>https://www.kevfoster.co.uk/posts/auth-multi-domain/</link>

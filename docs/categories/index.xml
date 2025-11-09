@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 12:12:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaza</title>
+      <link>https://www.kevfoster.co.uk/categories/gaza/</link>
+      <pubDate>Sun, 09 Nov 2025 12:12:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/gaza/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Authentication</title>
       <link>https://www.kevfoster.co.uk/categories/authentication/</link>
