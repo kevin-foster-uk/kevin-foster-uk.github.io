@@ -27,7 +27,7 @@ Then, on October 7th, Hamas committed a horrific act. Many people now frame ever
 
 Calling this "complicated" is a way to avoid these truths. It lets people off the hook. It makes them feel it is okay to look away.
 
-For those of us in countries like the UK, it is a privilege to call this "complicated". It is a privilege to be able to switch off the news because it is upsetting. For the people in Gaza, there is no switch.
+For those of us in countries like the UK, it is a privilege to call this "complicated". It is a privilege to be able to avoid horrific reports because it is upsetting. For the people in Gaza, there is no switch.
 
 We are not asking everyone to be a historian. We are asking everyone to be human. We are asking you to see a clear injustice and call it by its name.
 
