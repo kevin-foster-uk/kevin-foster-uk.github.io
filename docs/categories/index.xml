@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sun, 09 Nov 2025 12:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:30:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>https://www.kevfoster.co.uk/categories/people/</link>
+      <pubDate>Sun, 05 Apr 2026 11:30:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/people/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Gaza</title>
       <link>https://www.kevfoster.co.uk/categories/gaza/</link>
@@ -49,13 +56,6 @@
       <link>https://www.kevfoster.co.uk/categories/autism/</link>
       <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/categories/autism/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>People</title>
-      <link>https://www.kevfoster.co.uk/categories/people/</link>
-      <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/categories/people/</guid>
       <description></description>
     </item>
     <item>
