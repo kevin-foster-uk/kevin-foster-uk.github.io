@@ -10,11 +10,11 @@
     <lastBuildDate>Tue, 12 May 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/categories/saas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sleeping Soundly: Adding LUKS and Tang Encryption to Your Servers</title>
+      <title>Sleeping Soundly</title>
       <link>https://www.kevfoster.co.uk/posts/encryption-at-rest/encryption-at-rest/</link>
       <pubDate>Tue, 12 May 2026 07:00:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/posts/encryption-at-rest/encryption-at-rest/</guid>
-      <description>Sleeping Soundly: Adding LUKS and Tang Encryption to Your Servers Most of us obsess over TLS.</description>
+      <description>Adding LUKS and Tang Encryption to Your Servers Most of us obsess over TLS. We lock down data in transit, but what happens to that data when it stops moving?</description>
     </item>
     <item>
       <title>Simplifying SaaS Authentication Across Multiple Domains</title>

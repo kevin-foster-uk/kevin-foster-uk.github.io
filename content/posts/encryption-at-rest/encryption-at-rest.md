@@ -1,6 +1,6 @@
 
 ---
-title: "Sleeping Soundly: Adding LUKS and Tang Encryption to Your Servers"
+title: "Sleeping Soundly"
 draft: false
 date: 2026-05-12T7:00:00.000Z
 description: "Most of us obsess over TLS. We lock down data *in transit*, but what happens to that data when it stops moving? That is where **encryption at rest** comes in, and it is easier to misunderstand than you might think."
@@ -12,7 +12,7 @@ tags:
   - SaaS
 ---
 
-# Sleeping Soundly: Adding LUKS and Tang Encryption to Your Servers
+# Adding LUKS and Tang Encryption to Your Servers
 
 Most of us obsess over TLS. We lock down data *in transit*, but what happens to that data when it stops moving? That is where **encryption at rest** comes in, and it is easier to misunderstand than you might think.
 
