@@ -17,13 +17,13 @@ When building a SaaS application, it's common to provide each customer with thei
 
 Users often need access to multiple application instances, making a single-sign-on (SSO) system essential. SSO eliminates the friction of managing separate logins for each instance and repeatedly logging in and out.
 
-Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another's stored data, making authentication state sharing challenging.
+Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, the browser will not allow one domain to access another's stored data, making state sharing between domains a challenge.
 
-Traditional solutions typically redirect users to a central authentication system and back, requiring backend services to communicate. While functional, this process can feel clunky.
+Traditional solutions redirect the user to a central authentication system and back, requiring backend multiple services to coordinate with each other. While functional, this process is clunky.
 
 ### A Client-Side Approach with JWT and Popups
 
-What if we could handle multi-domain authentication entirely client-side, without additional server communication? We can achieve this using JSON Web Tokens (JWT) and the browser's postMessage API.
+What if we could handle multi-domain authentication entirely client-side, without backend servers needing to talk to each other at all? We can achieve this using JSON Web Tokens (JWT) and the browser's postMessage API.
 
 Here is how the process works:
 
