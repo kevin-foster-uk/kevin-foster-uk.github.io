@@ -199,10 +199,10 @@
 
   <section><p>When building a SaaS application, it&rsquo;s common to provide each customer with their own subdomain or custom domain. However, you typically need a centralised system for user authentication and management. This centralised approach is crucial for billing, as it maps users to their subscribed services.</p>
 <p>Users often need access to multiple application instances, making a single-sign-on (SSO) system essential. SSO eliminates the friction of managing separate logins for each instance and repeatedly logging in and out.</p>
-<p>Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, one domain cannot access another&rsquo;s stored data, making authentication state sharing challenging.</p>
-<p>Traditional solutions typically redirect users to a central authentication system and back, requiring backend services to communicate. While functional, this process can feel clunky.</p>
+<p>Combining custom domains with centralised authentication introduces complexity. Browsers treat each domain as separate, with isolated session storage, local storage, and cookies. For security reasons, the browser will not allow one domain to access another&rsquo;s stored data, making state sharing between domains a challenge.</p>
+<p>Traditional solutions redirect the user to a central authentication system and back, requiring backend multiple services to coordinate with each other. While functional, this process is clunky.</p>
 <h3 id="a-client-side-approach-with-jwt-and-popups">A Client-Side Approach with JWT and Popups</h3>
-<p>What if we could handle multi-domain authentication entirely client-side, without additional server communication? We can achieve this using JSON Web Tokens (JWT) and the browser&rsquo;s postMessage API.</p>
+<p>What if we could handle multi-domain authentication entirely client-side, without backend servers needing to talk to each other at all? We can achieve this using JSON Web Tokens (JWT) and the browser&rsquo;s postMessage API.</p>
 <p>Here is how the process works:</p>
 <ol>
 <li>A user visits a protected page on app.domain.com</li>

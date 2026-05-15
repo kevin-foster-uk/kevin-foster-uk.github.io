@@ -8,7 +8,7 @@
 <title>Sleeping Soundly</title>
 <meta
   name="description"
-  content="Most of us obsess over TLS. We lock down data *in transit*, but what happens to that data when it stops moving? That is where **encryption at rest** comes in, and it is easier to misunderstand than you might think."
+  content="We obsess over TLS. We lock down data *in transit*, but what about when the data stops moving? That is where **encryption at rest** comes in, and it is easy to misunderstand."
 />
 <link rel="canonical" href="https://www.kevfoster.co.uk/posts/encryption-at-rest/encryption-at-rest/" />
 <link rel="robots" href="/robots.txt" />
@@ -197,21 +197,21 @@
 
   
 
-  <section><h1 id="adding-luks-and-tang-encryption-to-your-servers">Adding LUKS and Tang Encryption to Your Servers</h1>
-<p>Most of us obsess over TLS. We lock down data <em>in transit</em>, but what happens to that data when it stops moving? That is where <strong>encryption at rest</strong> comes in, and it is easier to misunderstand than you might think.</p>
-<h2 id="what-is-encryption-at-rest">What Is Encryption at Rest?</h2>
-<p>Simply put, it is encryption applied to data stored on a physical disk (HDD or SSD). If someone steals a hard drive, a backup tape, or gains raw access to your cloud storage or colocated hardware, encryption at rest ensures the data is just noise without the key.</p>
-<h2 id="why-bother">Why Bother?</h2>
+  <section><h3 id="adding-luks-encryption-to-your-servers">Adding LUKS Encryption to Your Servers</h3>
+<p>We obsess over TLS. We lock down data <em>in transit</em>, but what about when the data stops moving? That is where <strong>encryption at rest</strong> comes in, and it is easy to misunderstand.</p>
+<h3 id="what-is-encryption-at-rest">What Is Encryption at Rest?</h3>
+<p>It is encryption applied to data stored on a physical disk (HDD or SSD). If someone steals a hard drive, or gains raw access to your cloud storage or colocated hardware, encryption at rest ensures the data is just noise without the key.</p>
+<h3 id="why-bother">Why Bother?</h3>
 <ul>
 <li><strong>Physical theft:</strong> Servers get decommissioned, laptops get lost, drives get recycled. Encryption renders the data useless.</li>
 <li><strong>Insider threats:</strong> Even a rogue datacentre engineer or hosting provider staffer cannot read your raw disk blocks.</li>
 <li><strong>Compliance:</strong> GDPR, HIPAA and PCI-DSS increasingly expect it.</li>
 </ul>
-<h2 id="the-uncomfortable-truth-it-is-not-that-common">The Uncomfortable Truth: It Is Not That Common</h2>
-<p>Despite being critical, encryption at rest is deployed far less often than in-transit encryption. Why? Many of us assume &ldquo;the cloud provider handles it&rdquo; (they often do not by default). Others fear the performance hit or the complexity of managing boot-time passwords for a fleet of mail servers, API servers, database servers, or anything else that runs unattended.</p>
+<h3 id="it-is-not-that-common">It Is Not That Common</h3>
+<p>Despite being critical, encryption at rest is deployed far less often than in-transit encryption. Why? Many assume &ldquo;the cloud provider handles it&rdquo; (they often do not by default). Others fear the performance hit or the complexity of managing boot-time passwords for a fleet of mail servers, API servers, database servers, or anything else that runs unattended.</p>
 <p>I once saw a service claim: <em>&ldquo;We don&rsquo;t encrypt your data at rest because your data is not at rest when used by our system.&rdquo;</em></p>
-<p>It is a tempting misunderstanding. &ldquo;At rest&rdquo; sounds like &ldquo;inactive&rdquo;, so it is easy to assume that actively read or written data does not count. But in security terms, any data sitting on a disk, whether your application is busy or idle, is considered &ldquo;at rest&rdquo;. When we are focused on other issues, it is easy to make assumptions about new concepts. But security is something worth giving time to.</p>
-<h2 id="a-practical-fix-luks-and-tang">A Practical Fix: LUKS and Tang</h2>
+<p>It is a tempting misunderstanding. &ldquo;At rest&rdquo; sounds like &ldquo;inactive&rdquo;, so it is easy to assume that actively read or written data does not count. But any data sitting on a disk, whether your application is busy or idle, is considered &ldquo;at rest&rdquo;. When we are focused on other issues, it is easy to make assumptions about new concepts. But this is something worth giving time to.</p>
+<h3 id="a-practical-fix-luks-and-tang">A Practical Fix: LUKS and Tang</h3>
 <p>For a recent project, I needed automatic, network-bound decryption for a handful of servers. Enter <strong>Clevis and Tang</strong>.</p>
 <ul>
 <li><strong>LUKS</strong> (Linux Unified Key Setup) encrypts the partition.</li>
@@ -227,9 +227,9 @@
 </span></span></code></pre></div></li>
 <li><strong>Test:</strong> Reboot the server. Clevis will automatically contact Tang, retrieve the secret and unlock <code>/dev/sda1</code>. No human needs to type a password.</li>
 </ol>
-<p>This gives you <strong>full disk encryption</strong> with <strong>seamless reboots</strong> across your entire fleet. The Tang server acts as an automated key master, but without network access to Tang, the locked server stays locked.</p>
-<h2 id="the-bottom-line">The Bottom Line</h2>
-<p>Encryption at rest should not be an afterthought for any server that holds sensitive data, whether it is a mail server, an API server, a database or a worker. By combining LUKS with Tang and Clevis, we can bridge the gap between &ldquo;should encrypt&rdquo; and &ldquo;actually encrypted&rdquo;, automatically and without forcing someone to run to the datacentre every time a server reboots.</p>
+<p>This gives you <strong>disk encryption</strong> with <strong>seamless reboots</strong> across your entire fleet. The Tang server acts as an automated key master, but without network access to Tang, the locked server stays locked.</p>
+<h3 id="the-bottom-line">The Bottom Line</h3>
+<p>Encryption is a must for any server that holds sensitive data, whether it is a mail server, an API server, a database or a worker. By combining LUKS with Tang and Clevis, we can bridge the gap between &ldquo;should encrypt&rdquo; and &ldquo;actually encrypted&rdquo;, automatically and without forcing someone to run to the datacentre every time a server reboots.</p>
 <p>Give it a try. Your sleeping data will thank you.</p>
 </section>
 
