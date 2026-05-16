@@ -1,0 +1,54 @@
+{{ if .Site.Config.Services.GoogleAnalytics.ID }}
+<div id="cookie-banner" style="display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:calc(100% - 32px);max-width:720px;z-index:999;background:#1e293b;border:1px solid #334155;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.5);padding:16px 20px;">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;">
+    <p style="margin:0;flex:1;min-width:200px;font-size:13px;line-height:1.5;color:#cbd5e1;">
+      This site uses Google Analytics to understand how visitors use it — no data is collected without your consent.
+      <a href="/privacy" style="color:#94a3b8;text-decoration:underline;">Privacy Policy</a>
+    </p>
+    <div style="display:flex;gap:8px;flex-shrink:0;">
+      <button id="cookie-accept" style="padding:8px 18px;background:#f8fafc;color:#0f172a;font-size:13px;font-weight:600;border:none;border-radius:8px;cursor:pointer;">Accept</button>
+      <button id="cookie-decline" style="padding:8px 18px;background:transparent;color:#94a3b8;font-size:13px;font-weight:600;border:1px solid #475569;border-radius:8px;cursor:pointer;">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var GA_ID = '{{ .Site.Config.Services.GoogleAnalytics.ID }}';
+
+  function loadGA() {
+    gtag('consent', 'update', {'analytics_storage': 'granted'});
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    gtag('config', GA_ID);
+  }
+
+  var consent = localStorage.getItem('ga-consent');
+
+  if (consent === 'accepted') {
+    loadGA();
+    return;
+  }
+
+  if (consent === 'declined') {
+    return;
+  }
+
+  var banner = document.getElementById('cookie-banner');
+  banner.style.display = 'block';
+
+  document.getElementById('cookie-accept').addEventListener('click', function () {
+    localStorage.setItem('ga-consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA();
+  });
+
+  document.getElementById('cookie-decline').addEventListener('click', function () {
+    localStorage.setItem('ga-consent', 'declined');
+    banner.style.display = 'none';
+  });
+})();
+</script>
+{{ end }}

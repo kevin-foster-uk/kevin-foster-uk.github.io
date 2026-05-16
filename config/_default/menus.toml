@@ -28,6 +28,12 @@
     url = "/recommendations"
     weight = 5
 
+[[main]]
+    identifier = "privacy"
+    name = "Privacy"
+    url = "/privacy"
+    weight = 6
+
 
 
 # Social Media Configuration
