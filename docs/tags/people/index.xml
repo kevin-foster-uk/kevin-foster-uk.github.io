@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Kevin Foster</title><link>https://www.kevfoster.co.uk/tags/people/</link><description>Recent content in People on Kevin Foster</description><generator>Hugo</generator><language>en-GB</language><copyright>{year}</copyright><lastBuildDate>Sun, 05 Apr 2026 11:30:00 +0000</lastBuildDate><atom:link href="https://www.kevfoster.co.uk/tags/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Loyalty, Scapegoats, and the Shape of a Sick System</title><link>https://www.kevfoster.co.uk/posts/loyalty-scapegoats-system/</link><pubDate>Sun, 05 Apr 2026 11:30:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/posts/loyalty-scapegoats-system/</guid><description>A family where one person&amp;rsquo;s ego sits at the centre. A workplace where a small clique hoards recognition.</description></item><item><title>Two-Way Street of Misunderstanding: The Double Empathy Problem</title><link>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</link><pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</guid><description>We meet someone new, and our minds instantly begin sorting them into a box. &amp;ldquo;The funny one.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Kevin Foster</title>
+    <link>https://www.kevfoster.co.uk/tags/people/</link>
+    <description>Recent content in People on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Sun, 05 Apr 2026 11:30:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kevfoster.co.uk/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loyalty, Scapegoats, and the Shape of a Sick System</title>
+      <link>https://www.kevfoster.co.uk/posts/loyalty-scapegoats-system/</link>
+      <pubDate>Sun, 05 Apr 2026 11:30:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/loyalty-scapegoats-system/</guid>
+      <description>A family where one person&amp;rsquo;s ego sits at the centre. A workplace where a small clique hoards recognition.</description>
+    </item>
+    <item>
+      <title>Two-Way Street of Misunderstanding: The Double Empathy Problem</title>
+      <link>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</link>
+      <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/misunderstanding-double-empathy-problem/</guid>
+      <description>We meet someone new, and our minds instantly begin sorting them into a box. &amp;ldquo;The funny one.</description>
+    </item>
+  </channel>
+</rss>

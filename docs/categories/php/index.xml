@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on Kevin Foster</title><link>https://www.kevfoster.co.uk/categories/php/</link><description>Recent content in PHP on Kevin Foster</description><generator>Hugo</generator><language>en-GB</language><copyright>{year}</copyright><lastBuildDate>Sat, 16 May 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.kevfoster.co.uk/categories/php/index.xml" rel="self" type="application/rss+xml"/><item><title>You Work in a Slop Factory (And They Will Never Change)</title><link>https://www.kevfoster.co.uk/posts/slop-factory/</link><pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/posts/slop-factory/</guid><description>You care about software. You read blogs. You listen to talks. You know what clean code looks like.</description></item><item><title>The Elephant in the Room: A Candid Look at WordPress Code</title><link>https://www.kevfoster.co.uk/posts/wordpress-code/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/posts/wordpress-code/</guid><description>WordPress is a titan of the web, powering a staggering portion of the internet. Its ease of use, vast ecosystem, and powerful community are undeniable strengths.</description></item><item><title>The PHP Paradox</title><link>https://www.kevfoster.co.uk/posts/php-paradox/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/posts/php-paradox/</guid><description>It’s a language often criticized for its inconsistencies, yet it powers a significant portion of the web.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Kevin Foster</title>
+    <link>https://www.kevfoster.co.uk/categories/php/</link>
+    <description>Recent content in PHP on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Sat, 16 May 2026 06:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kevfoster.co.uk/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Work in a Slop Factory (And They Will Never Change)</title>
+      <link>https://www.kevfoster.co.uk/posts/slop-factory/</link>
+      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/slop-factory/</guid>
+      <description>You care about software. You read blogs. You listen to talks. You know what clean code looks like.</description>
+    </item>
+    <item>
+      <title>The Elephant in the Room: A Candid Look at WordPress Code</title>
+      <link>https://www.kevfoster.co.uk/posts/wordpress-code/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/wordpress-code/</guid>
+      <description>WordPress is a titan of the web, powering a staggering portion of the internet. Its ease of use, vast ecosystem, and powerful community are undeniable strengths.</description>
+    </item>
+    <item>
+      <title>The PHP Paradox</title>
+      <link>https://www.kevfoster.co.uk/posts/php-paradox/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/php-paradox/</guid>
+      <description>It’s a language often criticized for its inconsistencies, yet it powers a significant portion of the web.</description>
+    </item>
+  </channel>
+</rss>
