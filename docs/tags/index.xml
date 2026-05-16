@@ -1,1 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Kevin Foster</title><link>https://www.kevfoster.co.uk/tags/</link><description>Recent content in Tags on Kevin Foster</description><generator>Hugo</generator><language>en-GB</language><copyright>{year}</copyright><lastBuildDate>Tue, 12 May 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>SaaS</title><link>https://www.kevfoster.co.uk/tags/saas/</link><pubDate>Tue, 12 May 2026 07:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/saas/</guid><description/></item><item><title>Security</title><link>https://www.kevfoster.co.uk/tags/security/</link><pubDate>Tue, 12 May 2026 07:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/security/</guid><description/></item><item><title>People</title><link>https://www.kevfoster.co.uk/tags/people/</link><pubDate>Sun, 05 Apr 2026 11:30:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/people/</guid><description/></item><item><title>Gaza</title><link>https://www.kevfoster.co.uk/tags/gaza/</link><pubDate>Sun, 09 Nov 2025 12:12:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/gaza/</guid><description/></item><item><title>Authentication</title><link>https://www.kevfoster.co.uk/tags/authentication/</link><pubDate>Sat, 04 Oct 2025 09:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/authentication/</guid><description/></item><item><title>CORS</title><link>https://www.kevfoster.co.uk/tags/cors/</link><pubDate>Sat, 04 Oct 2025 09:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/cors/</guid><description/></item><item><title>Complexity</title><link>https://www.kevfoster.co.uk/tags/complexity/</link><pubDate>Mon, 22 Sep 2025 11:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/complexity/</guid><description/></item><item><title>Software Dev</title><link>https://www.kevfoster.co.uk/tags/software-dev/</link><pubDate>Mon, 22 Sep 2025 11:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/software-dev/</guid><description/></item><item><title>Autism</title><link>https://www.kevfoster.co.uk/tags/autism/</link><pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/autism/</guid><description/></item><item><title>Company Culture</title><link>https://www.kevfoster.co.uk/tags/company-culture/</link><pubDate>Tue, 09 Sep 2025 18:22:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/company-culture/</guid><description/></item><item><title>Teams</title><link>https://www.kevfoster.co.uk/tags/teams/</link><pubDate>Tue, 09 Sep 2025 18:22:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/teams/</guid><description/></item><item><title>Cookies</title><link>https://www.kevfoster.co.uk/tags/cookies/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/cookies/</guid><description/></item><item><title>GDPR</title><link>https://www.kevfoster.co.uk/tags/gdpr/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/gdpr/</guid><description/></item><item><title>Hacking</title><link>https://www.kevfoster.co.uk/tags/hacking/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/hacking/</guid><description/></item><item><title>PHP</title><link>https://www.kevfoster.co.uk/tags/php/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/php/</guid><description/></item><item><title>Wordpress</title><link>https://www.kevfoster.co.uk/tags/wordpress/</link><pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate><guid>https://www.kevfoster.co.uk/tags/wordpress/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kevin Foster</title>
+    <link>https://www.kevfoster.co.uk/tags/</link>
+    <description>Recent content in Tags on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Sat, 16 May 2026 06:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kevfoster.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Company Culture</title>
+      <link>https://www.kevfoster.co.uk/tags/company-culture/</link>
+      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/company-culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking</title>
+      <link>https://www.kevfoster.co.uk/tags/hacking/</link>
+      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://www.kevfoster.co.uk/tags/php/</link>
+      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Dev</title>
+      <link>https://www.kevfoster.co.uk/tags/software-dev/</link>
+      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/software-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaaS</title>
+      <link>https://www.kevfoster.co.uk/tags/saas/</link>
+      <pubDate>Tue, 12 May 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://www.kevfoster.co.uk/tags/security/</link>
+      <pubDate>Tue, 12 May 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>https://www.kevfoster.co.uk/tags/people/</link>
+      <pubDate>Sun, 05 Apr 2026 11:30:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaza</title>
+      <link>https://www.kevfoster.co.uk/tags/gaza/</link>
+      <pubDate>Sun, 09 Nov 2025 12:12:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/gaza/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>https://www.kevfoster.co.uk/tags/authentication/</link>
+      <pubDate>Sat, 04 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CORS</title>
+      <link>https://www.kevfoster.co.uk/tags/cors/</link>
+      <pubDate>Sat, 04 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/cors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complexity</title>
+      <link>https://www.kevfoster.co.uk/tags/complexity/</link>
+      <pubDate>Mon, 22 Sep 2025 11:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autism</title>
+      <link>https://www.kevfoster.co.uk/tags/autism/</link>
+      <pubDate>Wed, 10 Sep 2025 11:43:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/autism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teams</title>
+      <link>https://www.kevfoster.co.uk/tags/teams/</link>
+      <pubDate>Tue, 09 Sep 2025 18:22:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/teams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookies</title>
+      <link>https://www.kevfoster.co.uk/tags/cookies/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/cookies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDPR</title>
+      <link>https://www.kevfoster.co.uk/tags/gdpr/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/gdpr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://www.kevfoster.co.uk/tags/wordpress/</link>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/tags/wordpress/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

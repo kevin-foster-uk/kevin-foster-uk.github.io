@@ -5,12 +5,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sleeping Soundly</title>
+<title>You Work in a Slop Factory (And They Will Never Change)</title>
 <meta
   name="description"
-  content="We obsess over TLS. We lock down data *in transit*, but what about when the data stops moving? That is where **encryption at rest** comes in, and it is easy to misunderstand."
+  content="A slop factory is not a software company. It&#39;s a feature-assembly line."
 />
-<link rel="canonical" href="https://www.kevfoster.co.uk/posts/encryption-at-rest/encryption-at-rest/" />
+<link rel="canonical" href="https://www.kevfoster.co.uk/posts/slop-factory/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
@@ -188,23 +188,27 @@
 
 <article class="flex flex-col gap-10">
   <header class="flex flex-col gap-2">
-    <h2 class="title-large">Sleeping Soundly</h2>
+    <h2 class="title-large">You Work in a Slop Factory (And They Will Never Change)</h2>
 
     <div class="meta">
       
-      <time datetime="2026-05-12 07:00:00 &#43;0000 UTC" title='Tue, May 12, 2026, 7:00 AM UTC'>
-        12/05/2026
+      <time datetime="2026-05-16 06:00:00 &#43;0000 UTC" title='Sat, May 16, 2026, 6:00 AM UTC'>
+        16/05/2026
       </time>
 
       
        —
         
-          <a class="categories" href="/categories/security/" alt="Security">
-            Security
+          <a class="categories" href="/categories/company-culture/" alt="Company Culture">
+            Company Culture
           </a>
         
-          <a class="categories" href="/categories/saas/" alt="SaaS">
-            SaaS
+          <a class="categories" href="/categories/software-dev/" alt="Software Dev">
+            Software Dev
+          </a>
+        
+          <a class="categories" href="/categories/php/" alt="PHP">
+            PHP
           </a>
         
       
@@ -213,40 +217,47 @@
 
   
 
-  <section><h3 id="adding-luks-encryption-to-your-servers">Adding LUKS Encryption to Your Servers</h3>
-<p>We obsess over TLS. We lock down data <em>in transit</em>, but what about when the data stops moving? That is where <strong>encryption at rest</strong> comes in, and it is easy to misunderstand.</p>
-<h3 id="what-is-encryption-at-rest">What Is Encryption at Rest?</h3>
-<p>It is encryption applied to data stored on a physical disk (HDD or SSD). If someone steals a hard drive, or gains raw access to your cloud storage or colocated hardware, encryption at rest ensures the data is just noise without the key.</p>
-<h3 id="why-bother">Why Bother?</h3>
-<ul>
-<li><strong>Physical theft:</strong> Servers get decommissioned, laptops get lost, drives get recycled. Encryption renders the data useless.</li>
-<li><strong>Insider threats:</strong> Even a rogue datacentre engineer or hosting provider staffer cannot read your raw disk blocks.</li>
-<li><strong>Compliance:</strong> GDPR, HIPAA and PCI-DSS increasingly expect it.</li>
-</ul>
-<h3 id="it-is-not-that-common">It Is Not That Common</h3>
-<p>Despite being critical, encryption at rest is deployed far less often than in-transit encryption. Why? Many assume &ldquo;the cloud provider handles it&rdquo; (they often do not by default). Others fear the performance hit or the complexity of managing boot-time passwords for a fleet of mail servers, API servers, database servers, or anything else that runs unattended.</p>
-<p>I once saw a service claim: <em>&ldquo;We don&rsquo;t encrypt your data at rest because your data is not at rest when used by our system.&rdquo;</em></p>
-<p>It is a tempting misunderstanding. &ldquo;At rest&rdquo; sounds like &ldquo;inactive&rdquo;, so it is easy to assume that actively read or written data does not count. But any data sitting on a disk, whether your application is busy or idle, is considered &ldquo;at rest&rdquo;. When we are focused on other issues, it is easy to make assumptions about new concepts. But this is something worth giving time to.</p>
-<h3 id="a-practical-fix-luks-and-tang">A Practical Fix: LUKS and Tang</h3>
-<p>For a recent project, I needed automatic, network-bound decryption for a handful of servers. Enter <strong>Clevis and Tang</strong>.</p>
-<ul>
-<li><strong>LUKS</strong> (Linux Unified Key Setup) encrypts the partition.</li>
-<li><strong>Tang</strong> is a stateless network daemon that unlocks LUKS without storing the actual key.</li>
-<li><strong>Clevis</strong> (on each server) automates the unlock process.</li>
-</ul>
-<p>Here is the high-level flow:</p>
-<ol>
-<li><strong>On your storage server or the server you want to protect:</strong> Set up LUKS on the partition you want to encrypt.</li>
-<li><strong>Deploy Tang:</strong> Run a lightweight Tang container somewhere on your network, reachable via HTTPS. It will advertise its public key.</li>
-<li><strong>Bind Clevis:</strong> On each target server (mail, API, database and so on), run:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo clevis luks <span style="color:#8be9fd;font-style:italic">bind</span> -d /dev/sda1 tang <span style="color:#f1fa8c">&#39;{&#34;url&#34;:&#34;http://tang-server&#34;}&#39;</span>
-</span></span></code></pre></div></li>
-<li><strong>Test:</strong> Reboot the server. Clevis will automatically contact Tang, retrieve the secret and unlock <code>/dev/sda1</code>. No human needs to type a password.</li>
-</ol>
-<p>This gives you <strong>disk encryption</strong> with <strong>seamless reboots</strong> across your entire fleet. The Tang server acts as an automated key master, but without network access to Tang, the locked server stays locked.</p>
+  <section><p>You care about software. You read blogs. You listen to talks. You know what clean code looks like. You <em>want</em> to improve.</p>
+<p>And every single day, some project manager tells you that refactoring is &ldquo;not a priority.&rdquo; That testing is &ldquo;slowing us down.&rdquo; That learning from industry best practices is &ldquo;academic nonsense.&rdquo;</p>
+<p>Welcome to the slop factory.</p>
+<h3 id="what-is-a-slop-factory">What Is a Slop Factory?</h3>
+<p>A slop factory is not a software company. It&rsquo;s a feature-assembly line. The goal is not maintainable software. The goal is <em>visible output right now</em>, regardless of the mess left behind.</p>
+<p>Web development is full of them. Especially web development.</p>
+<p>They hide behind Agile jargon and Jira boards. But underneath, it&rsquo;s just tickets, deadlines, and panic. Quality is a joke. Technical debt is a way of life. And anyone who asks to <em>improve</em> is labelled &ldquo;difficult.&rdquo;</p>
+<h3 id="the-real-tragedy">The Real Tragedy</h3>
+<p>Most genuinely interested developers get stuck in these places. Not because they&rsquo;re stupid. Because slop factories are <em>common</em>. They&rsquo;re the default. They make up a huge chunk of the industry.</p>
+<p>You show up keen. You want to learn. You want to build things properly.</p>
+<p>And slowly, quietly, the factory grinds you down. You stop suggesting improvements. You stop reading. You stop caring. You become a ticket-closing machine, just like everyone else.</p>
+<p>That&rsquo;s not a career. That&rsquo;s a slow death of the craft.</p>
+<h3 id="the-coping-advice-you-dont-need">The Coping Advice You Don&rsquo;t Need</h3>
+<p>Someone will tell you: &ldquo;Just refactor as you go. Rename one variable a day. Be the change.&rdquo;</p>
+<p>That&rsquo;s <em>coping</em>. That&rsquo;s mopping the floor while the ceiling leaks.</p>
+<p>It doesn&rsquo;t fix the culture. It doesn&rsquo;t convince management. It just keeps you sane long enough to watch the ship sink anyway.</p>
+<h3 id="the-brutal-two-step-plan">The Brutal Two-Step Plan</h3>
+<p>Here&rsquo;s what actually works.</p>
+<p><strong>Step One: Try to convince them.</strong></p>
+<p>Properly. Once. With evidence.</p>
+<p>Show them the data. Point to <em>Accelerate</em>. Point to the State of DevOps reports. Point to how successful teams at real software companies actually work, including trunk-based development, continuous integration, automated testing, and refactoring as a daily habit.</p>
+<p>Say this: &ldquo;We don&rsquo;t have to guess what works. Thousands of teams have already done the experiments. The evidence exists. Can we try something?&rdquo;</p>
+<p><strong>Step Two: If they scoff, leave.</strong></p>
+<p>When management scoffs at learning, when they wave their hand and say &ldquo;that doesn&rsquo;t apply here&rdquo; without a single piece of evidence, it&rsquo;s not because your idea is bad.</p>
+<p>It&rsquo;s because they <em>don&rsquo;t want to change</em>.</p>
+<p>They are happy with low-quality work. It has made them profit before. It will make them profit again. They don&rsquo;t care about the compounding slowdown, the talent drain, or the inevitable collapse. That&rsquo;s tomorrow&rsquo;s problem.</p>
+<p>And you cannot teach someone who is proud of not knowing.</p>
+<h3 id="what-a-real-company-looks-like">What a Real Company Looks Like</h3>
+<p>A good software development company does not scoff at learning. They ask questions. They run experiments. They want to know what successful teams do differently, not because they worship experts, but because they are not stupid enough to ignore hard-won experience.</p>
+<p>They trust their engineers to improve the process. They see quality as the only sustainable path to profit.</p>
 <h3 id="the-bottom-line">The Bottom Line</h3>
-<p>Encryption is a must for any server that holds sensitive data, whether it is a mail server, an API server, a database or a worker. By combining LUKS with Tang and Clevis, we can bridge the gap between &ldquo;should encrypt&rdquo; and &ldquo;actually encrypted&rdquo;, automatically and without forcing someone to run to the datacentre every time a server reboots.</p>
-<p>Give it a try. Your sleeping data will thank you.</p>
+<p>You have three choices:</p>
+<ol>
+<li><strong>Stay and cope</strong> – quietly renaming variables while the factory burns.</li>
+<li><strong>Stay and fight</strong> – exhausting yourself trying to convince people who don&rsquo;t want to learn.</li>
+<li><strong>Leave</strong> – and find a place where engineering actually means something.</li>
+</ol>
+<p>Only one of those leads to growth. Only one protects your skills, your sanity, and your future.</p>
+<p>The slop factories will always exist. They will always be common. They will always outnumber the good places.</p>
+<p>But that doesn&rsquo;t mean you have to work in one.</p>
+<p>Pack your things. Take your talent somewhere it&rsquo;s respected. And let the slop factories drown in the technical debt they so richly deserve.</p>
 </section>
 
   
@@ -261,12 +272,20 @@
     
       <div class="pb-14 taxonomy-list tags-list">
       
-        <a href="/tags/security/" alt="Security">
-          Security
+        <a href="/tags/company-culture/" alt="Company Culture">
+          Company Culture
         </a>
       
-        <a href="/tags/saas/" alt="SaaS">
-          SaaS
+        <a href="/tags/software-dev/" alt="Software Dev">
+          Software Dev
+        </a>
+      
+        <a href="/tags/php/" alt="PHP">
+          PHP
+        </a>
+      
+        <a href="/tags/hacking/" alt="Hacking">
+          Hacking
         </a>
       
       </div>
