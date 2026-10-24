@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Kevin Foster</title>
-    <link>https://www.kevfoster.co.uk/categories/javascript/</link>
+    <link>http://localhost:1313/categories/javascript/</link>
     <description>Recent content in Javascript on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <atom:link href="https://www.kevfoster.co.uk/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

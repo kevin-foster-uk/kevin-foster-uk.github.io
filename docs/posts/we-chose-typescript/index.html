@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth dark">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>We Chose TypeScript for the Code, But JavaScript for the Politics</title>
+<meta
+  name="description"
+  content="A case study in technical judgement, organisational friction, and the cost of broken trust"
+/>
+<link rel="canonical" href="http://localhost:1313/posts/we-chose-typescript/" />
+<link rel="robots" href="/robots.txt" />
+
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {'analytics_storage': 'denied'});
+</script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+
+<link rel="stylesheet" href="http://localhost:1313/css/app.css" /><style>
+
+
+ 
+.mermaid text,
+.mermaid tspan,
+.mermaid .label,
+.mermaid .nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .clusterLabel,
+.mermaid .label text,
+.mermaid [class*="Label"] {
+  font-size: 18px !important;
+  font-family: Arial, sans-serif !important;
+}
+
+ 
+.mermaid .flowchart-label text,
+.mermaid .sequence-diagram text,
+.mermaid .classDiagram-label text,
+.mermaid .stateDiagram-label text {
+  font-size: 18px !important;
+}
+
+.mermaid .label {
+  text-align: center !important;
+  dominant-baseline: middle !important;
+  text-anchor: middle !important;
+}
+</style></head>
+
+  <body class="max-w-screen-md mx-auto px-2.5">
+    <div class="header">
+      <header class="flex flex-col sm:flex-row items-center gap-5 sm:gap-10 pt-16 py-12">
+   
+
+
+<div class="flex-none w-20 h-20 rounded-full overflow-hidden">
+  <a href="http://localhost:1313/">
+    <img
+      srcset="/img/profile-picture_hu10090986920638988592.jpg 80w"
+      src="/img/profile-picture.jpg"
+      width="272"
+      height="296"
+      alt="Kevin Foster"
+    />
+  </a>
+</div>
+
+  
+  <div class="flex flex-col gap-5">
+    <a href="http://localhost:1313/">
+  <h1 id="site-title">Kevin Foster</h1>
+</a>
+ 
+    <nav>
+  <ul>
+     
+    
+    <li>
+      <a href="/" class="">
+        Home
+      </a>
+    </li>
+    
+    <li>
+      <a href="/about" class="">
+        About me
+      </a>
+    </li>
+    
+    <li>
+      <a href="/categories" class="">
+        Categories
+      </a>
+    </li>
+    
+    <li>
+      <a href="/tags" class="">
+        Tags
+      </a>
+    </li>
+    
+    <li>
+      <a href="/recommendations" class="">
+        Recommendations
+      </a>
+    </li>
+    
+    <li>
+      <a href="/privacy" class="">
+        Privacy
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+      <button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()">
+  <span class="theme-icon light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+</svg> </span>
+  <span class="theme-icon dark"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+</svg> </span>
+</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const theme = localStorage.getItem('theme');
+
+    if (!theme || theme === 'light') {
+      setTheme('light');
+    } else {
+      setTheme(theme);
+    }
+  });
+
+  function setTheme(theme) {
+    const html = document.querySelector('html');
+    localStorage.setItem('theme', theme);
+
+    if (theme === 'light') {
+      if (html.classList.contains('dark')) {
+        document.querySelector('html').classList.remove('dark');
+      }
+
+      document.querySelector('.theme-icon.light').style.display = 'none';
+      document.querySelector('.theme-icon.dark').style.display = 'block';
+    } else {
+      if (!html.classList.contains('dark')) {
+        document.querySelector('html').classList.add('dark');
+      }
+
+      document.querySelector('.theme-icon.dark').style.display = 'none';
+      document.querySelector('.theme-icon.light').style.display = 'block';
+    }
+  }
+
+  function toggleTheme() {
+    const theme = localStorage.getItem('theme');
+
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }
+</script>
+    </div>
+
+    <main id="content">
+
+<article class="flex flex-col gap-10">
+  <header class="flex flex-col gap-2">
+    <h2 class="title-large">We Chose TypeScript for the Code, But JavaScript for the Politics</h2>
+
+    <div class="meta">
+      
+      <time datetime="2026-06-28 11:00:00 &#43;0000 UTC" title='Sun, Jun 28, 2026, 11:00 AM UTC'>
+        28/06/2026
+      </time>
+
+      
+       —
+        
+          <a class="categories" href="/categories/company-culture/" alt="Company Culture">
+            Company Culture
+          </a>
+        
+          <a class="categories" href="/categories/software-dev/" alt="Software Dev">
+            Software Dev
+          </a>
+        
+      
+    </div>
+  </header>
+
+  
+
+  <section><p>In a project I was working on, my team and I faced a decision that should have been straightforward: whether to build a new ReactJS application using JavaScript or TypeScript. The technical arguments were clear to us. We chose TypeScript. The outcome was not a technical victory but a political retreat. We shipped the project in JavaScript. This article is not about the relative merits of the two languages. It is about the gap between technical evidence and organisational reality, and the price of closing that gap.</p>
+<h3 id="the-setup">The setup</h3>
+<p>I was a senior developer on a software development project. The team was competent but new to ReactJS. Management was concerned about this, so they brought in an external advisor, whom I will refer to as John. His role was to provide guidance and accelerate our learning. He had experience with React and was meant to supplement our inexperience.</p>
+<p>During early planning, the team debated whether to use JavaScript or TypeScript. I had not used TypeScript before, but from my research I could see its benefits: better tooling, clearer interfaces, and fewer runtime errors in production. The team, after discussion, agreed. John opposed this strongly. He argued that TypeScript added unnecessary complexity and made a specific claim: that there is no evidence TypeScript produces better quality software. This claim is weak. The size and activity of the TypeScript community alone is some evidence of its value. Many experienced developers and large organisations have adopted it willingly, which suggests it solves real problems.</p>
+<p>The claim was not presented as an opinion. It was presented as a fact, and it was used to undermine our decision. This was manipulation. It was subtle, but it was manipulative. The team proceeded with TypeScript anyway. We had consensus among ourselves, and we believed the technical case was strong enough to outweigh a single dissenting voice.</p>
+<h3 id="the-friction">The friction</h3>
+<p>Around the same time, I was drafting a proposal to refactor a legacy codebase that sat alongside the new work. John and I had discussed some pros and cons of different approaches in my plan before I shared the document with the team and management. I think this is why he expected to be consulted before I distributed it. But it was my proposal. I wrote it.</p>
+<p>When I shared it, John was angry. He felt I should have run the proposal past him first. I was confused. He had been hired as an advisor, not as a gatekeeper. His role, as I understood it, was to offer expertise when requested, not to approve work before it reached management.</p>
+<p>I raised this with management. I noted that John appeared frustrated when his advice was not followed. I suggested that we clarify his role and responsibilities to avoid further friction.</p>
+<p>Shortly afterwards, John submitted code reviews for my team. His comments were logically correct. The points he made were valid. But the tone was unfriendly. As an outside advisor, I expected him to show consideration for the people he was reviewing by being sensitive in giving criticism. He was not. His comments came across as blunt and dismissive rather than constructive. I called him out on the private pull request (visible only to developers working on this internal project). I stated that he had been hired to advise, not to demean. Management did not have an issue with his tone. Neither did other members of my team. I was left in a position where I had named a problem that no one else acknowledged.</p>
+<h3 id="the-trap">The trap</h3>
+<p>At one point, John told me privately something personal about his family relationships. I treated this as a confidential disclosure and did not repeat it. Weeks later, in a team meeting, he made a statement that directly contradicted what he had told me privately. The two accounts could not both be true.</p>
+<p>I recognised this as a trap. If I had repeated his private comment in the meeting, he could have publicly contradicted me. He could have denied ever saying it. He could have framed me as someone who misrepresented him or who spread false rumours. I would have looked dishonest, and he would have looked credible. I said nothing. I did not take the bait.</p>
+<h3 id="the-intervention">The intervention</h3>
+<p>The CEO later questioned me directly. He wanted to know why we had chosen TypeScript against John&rsquo;s advice. I explained the technical reasoning. I mentioned the team&rsquo;s consensus. I also mentioned that I did not agree with John&rsquo;s opinion and that he seemed to be pushing for us to adopt his preferences rather than helping us decide based on the facts. But the CEO&rsquo;s question made it clear that John&rsquo;s opinion carried weight beyond his advisory role. It was not just advice. It was expected to be followed.</p>
+<p>To de-escalate and move the project forward, I agreed to switch to JavaScript. I personally converted the codebase. The project continued.</p>
+<p>Later, I shared with management that John&rsquo;s false claim about TypeScript had caused me to lose trust in him entirely. I explained that trust, for me, is built on accuracy and consistency. A single false statement, presented as fact and used to influence decisions, is enough to break that trust. Management could not understand why I reacted so strongly. They viewed it as a minor disagreement, not a betrayal of professional standards.</p>
+<h3 id="the-cost">The cost</h3>
+<p>We shipped the project in JavaScript. That is the technical outcome. The code works. On the surface, this looks like a success.</p>
+<p>But there were hidden costs. The team lost a tool that would have made maintenance easier. More importantly, I lost confidence in the decision-making process. I learned that technical evidence could be overruled by a single individual with enough influence. I learned that management would not distinguish between a well-supported argument and a false claim. I learned that calling out hostile behaviour would leave me isolated, not supported.</p>
+<p>I also learned to recognise traps. The private contradiction was a test. I passed it, but the fact that the test existed at all told me something about the environment I was operating in.</p>
+<h3 id="the-pattern">The pattern</h3>
+<p>This was not the first time I had encountered this dynamic. Throughout my career, I have observed that directness is often misunderstood. I speak openly and consistently. I do not tailor my message to different audiences. I process information logically and I expect others to do the same. When someone makes a false claim, I notice it. When someone changes their story, I notice that too.</p>
+<p>In many workplaces, this is not an advantage. It is a liability. People who speak plainly are seen as difficult. People who call out falsehoods are seen as disruptive. People who refuse to play games are seen as naive. Meanwhile, those who manipulate, who obscure, who present different versions of themselves to different audiences, are often rewarded. They are seen as diplomatic. They are seen as team players.</p>
+<p>I do not think this is inevitable. I think it is a choice that organisations make, often unconsciously. They reward confidence over accuracy. They reward harmony over honesty. They reward loyalty over integrity.</p>
+<h3 id="what-i-would-do-differently">What I would do differently</h3>
+<p>If I could repeat this project, I would not change the technical decision. TypeScript was the right choice for the code. But I would change how I managed the political dimension.</p>
+<p>I would have clarified John&rsquo;s role in writing, before any decisions were made. I would have raised the tone of his code reviews with management earlier, and I would have framed it as a risk to team morale, not as a personal grievance. I would have been more careful about what I shared with John privately, and I would have assumed that anything I said could be used against me.</p>
+<p>These are not pleasant lessons. They are defensive lessons. They are the lessons you learn when you realise that technical skill is not enough to protect you from organisational dysfunction.</p>
+<h3 id="the-takeaway">The takeaway</h3>
+<p>We chose TypeScript for the code. We switched to JavaScript for the politics. The project survived, but my trust in the organisation did not.</p>
+<p>I do not regret the concessions I made. They kept the project moving and protected the team from further friction. But I regret that the concessions were necessary. I regret that a false claim went unchallenged. I regret that management could not see why accuracy matters.</p>
+<p>If you work in technology, you will face similar decisions. You will be asked to choose between what is technically right and what is politically expedient. Sometimes you will have to choose the latter. That is not a failure. It is a reality of working with other people.</p>
+<p>But when you make that choice, recognise the cost. Recognise that you are trading trust for progress. Recognise that the trade may not be worth it in the long run. And if you are in a position of authority, recognise that your team is watching. They are learning from your example. They are learning whether evidence matters, whether honesty is valued, and whether directness is safe.</p>
+<p>I still believe that directness and integrity are worth practising. I practise them because they are consistent with who I am, not because they guarantee a good outcome. That is a small comfort, but it is enough to keep going.</p>
+</section>
+
+  
+    
+  
+
+    
+  
+
+
+  <footer>
+    
+      <div class="pb-14 taxonomy-list tags-list">
+      
+        <a href="/tags/company-culture/" alt="Company Culture">
+          Company Culture
+        </a>
+      
+        <a href="/tags/software-dev/" alt="Software Dev">
+          Software Dev
+        </a>
+      
+      </div>
+    
+  </footer>
+</article>
+
+
+    </main>
+
+    <footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
+    <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1">
+  © 2026 —
+  <a href="http://localhost:1313/">Kevin Foster</a> 
+  <span class="font-normal">with</span>
+  <a
+    href="https://github.com/nixentric/Lowkey-Hugo-Theme"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Lowkey
+  </a>
+</div>
+
+    <div class="order-1 sm:order-2">
+  <ul class="flex sm:justify-end gap-5">
+    
+    
+    <li>    
+      <a href="https://github.com/kevin-foster-uk" target="_blank" rel="me noopener noreferrer">GitHub</a>
+    </li>
+    
+    
+  </ul>
+</div>
+
+</footer>
+<div id="cookie-banner" style="display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:calc(100% - 32px);max-width:720px;z-index:999;background:#1e293b;border:1px solid #334155;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.5);padding:16px 20px;">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;">
+    <p style="margin:0;flex:1;min-width:200px;font-size:13px;line-height:1.5;color:#cbd5e1;">
+      This site uses Google Analytics to understand how visitors use it — no data is collected without your consent.
+      <a href="/privacy" style="color:#94a3b8;text-decoration:underline;">Privacy Policy</a>
+    </p>
+    <div style="display:flex;gap:8px;flex-shrink:0;">
+      <button id="cookie-accept" style="padding:8px 18px;background:#f8fafc;color:#0f172a;font-size:13px;font-weight:600;border:none;border-radius:8px;cursor:pointer;">Accept</button>
+      <button id="cookie-decline" style="padding:8px 18px;background:transparent;color:#94a3b8;font-size:13px;font-weight:600;border:1px solid #475569;border-radius:8px;cursor:pointer;">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var GA_ID = 'G-9TGS0VBVHS';
+
+  function loadGA() {
+    gtag('consent', 'update', {'analytics_storage': 'granted'});
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    gtag('config', GA_ID);
+  }
+
+  var consent = localStorage.getItem('ga-consent');
+
+  if (consent === 'accepted') {
+    loadGA();
+    return;
+  }
+
+  if (consent === 'declined') {
+    return;
+  }
+
+  var banner = document.getElementById('cookie-banner');
+  banner.style.display = 'block';
+
+  document.getElementById('cookie-accept').addEventListener('click', function () {
+    localStorage.setItem('ga-consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA();
+  });
+
+  document.getElementById('cookie-decline').addEventListener('click', function () {
+    localStorage.setItem('ga-consent', 'declined');
+    banner.style.display = 'none';
+  });
+})();
+</script>
+
+</body>
+</html>

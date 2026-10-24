@@ -26,6 +26,6 @@ My passion for systems extends beyond code. I'm a music enthusiast and hobbyist 
 - Version Control (Git)
 - PHP / MySQL
 - Linux
-- Containers (Docker, Podman, ...)
-- Infrastructure as Code (Ansible, Kubernetes, ...)
+- Containers (Docker)
+- Infrastructure as Code (Ansible, Docker, Kubernetes, ...)
 - XHTML/CSS/SCSS
