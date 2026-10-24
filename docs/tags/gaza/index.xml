@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaza on Kevin Foster</title>
-    <link>http://localhost:1313/tags/gaza/</link>
+    <link>https://www.kevfoster.co.uk/tags/gaza/</link>
     <description>Recent content in Gaza on Kevin Foster</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Sun, 09 Nov 2025 12:12:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gaza/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevfoster.co.uk/tags/gaza/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It&#39;s Not Complicated: Why We Must Speak Up on Gaza</title>
-      <link>http://localhost:1313/posts/gazza-genocide-not-complicated/</link>
+      <link>https://www.kevfoster.co.uk/posts/gazza-genocide-not-complicated/</link>
       <pubDate>Sun, 09 Nov 2025 12:12:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gazza-genocide-not-complicated/</guid>
+      <guid>https://www.kevfoster.co.uk/posts/gazza-genocide-not-complicated/</guid>
       <description>Lately, I have been feeling so frustrated. When the talk turns to the terrible suffering in Gaza, I hear the same thing again and again.</description>
     </item>
   </channel>
