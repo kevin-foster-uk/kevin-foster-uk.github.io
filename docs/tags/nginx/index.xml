@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Kevin Foster</title>
+    <link>https://www.kevfoster.co.uk/tags/nginx/</link>
+    <description>Recent content in Nginx on Kevin Foster</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Tue, 10 Nov 2026 07:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kevfoster.co.uk/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squeeze Once, Serve Forever</title>
+      <link>https://www.kevfoster.co.uk/posts/squeeze-once_serve-forever/</link>
+      <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/squeeze-once_serve-forever/</guid>
+      <description>Pre-Compressing SPA Assets for nginx We spend a lot of time making single-page apps feel fast once they are running.</description>
+    </item>
+  </channel>
+</rss>

@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 16 May 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance</title>
+      <link>https://www.kevfoster.co.uk/categories/performance/</link>
+      <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Dev</title>
+      <link>https://www.kevfoster.co.uk/categories/software-dev/</link>
+      <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/categories/software-dev/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Company Culture</title>
       <link>https://www.kevfoster.co.uk/categories/company-culture/</link>
@@ -21,13 +35,6 @@
       <link>https://www.kevfoster.co.uk/categories/php/</link>
       <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
       <guid>https://www.kevfoster.co.uk/categories/php/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Dev</title>
-      <link>https://www.kevfoster.co.uk/categories/software-dev/</link>
-      <pubDate>Sat, 16 May 2026 06:00:00 +0000</pubDate>
-      <guid>https://www.kevfoster.co.uk/categories/software-dev/</guid>
       <description></description>
     </item>
     <item>

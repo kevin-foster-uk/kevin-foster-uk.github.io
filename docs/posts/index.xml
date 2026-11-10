@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 16 May 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevfoster.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squeeze Once, Serve Forever</title>
+      <link>https://www.kevfoster.co.uk/posts/squeeze-once_serve-forever/</link>
+      <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.kevfoster.co.uk/posts/squeeze-once_serve-forever/</guid>
+      <description>Pre-Compressing SPA Assets for nginx We spend a lot of time making single-page apps feel fast once they are running.</description>
+    </item>
     <item>
       <title>You Work in a Slop Factory (And They Will Never Change)</title>
       <link>https://www.kevfoster.co.uk/posts/slop-factory/</link>

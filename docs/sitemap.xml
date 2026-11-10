@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.kevfoster.co.uk/categories/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/nginx/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/performance/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/categories/performance/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/posts/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/software-dev/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/categories/software-dev/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/spa/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/posts/squeeze-once_serve-forever/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevfoster.co.uk/tags/</loc>
+    <lastmod>2026-11-10T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/tags/company-culture/</loc>
     <lastmod>2026-05-16T06:00:00+00:00</lastmod>
@@ -14,25 +44,10 @@
     <loc>https://www.kevfoster.co.uk/tags/hacking/</loc>
     <lastmod>2026-05-16T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.kevfoster.co.uk/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.kevfoster.co.uk/tags/php/</loc>
     <lastmod>2026-05-16T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/categories/php/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/posts/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/tags/software-dev/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/categories/software-dev/</loc>
-    <lastmod>2026-05-16T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevfoster.co.uk/tags/</loc>
     <lastmod>2026-05-16T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevfoster.co.uk/posts/slop-factory/</loc>
